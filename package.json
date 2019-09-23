@@ -8,7 +8,7 @@
     "devstart": "webpack-dev-server --open",
     "build": "webpack",
     "prod": "webpack — mode production",
-    "start": "npm run build && node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Agnes Meri",
