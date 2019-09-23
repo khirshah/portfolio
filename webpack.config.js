@@ -19,7 +19,8 @@ const htmlPlugins = htmlFiles.map( filePath => {
   return new HtmlWebpackPlugin({
     chunks:[fileName.replace(path.extname(fileName), ""), "vendor"],
     template: filePath,
-    filename: fileName})
+    filename: fileName,
+  })
 });
 
 module.exports = {
@@ -46,8 +47,8 @@ module.exports = {
     }
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
-   module: {
-     rules: [
+  module: {
+    rules: [
       {
         test: /\.css$/,
         use: [
@@ -79,5 +80,6 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  performance: { hints: false }
 };
