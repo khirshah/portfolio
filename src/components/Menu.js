@@ -5,8 +5,9 @@ export default class Menu extends Component {
         return (
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/projects/project_1/">Project</a></li>
                 <li><a href="https://agi-react-calculator.herokuapp.com/">Calculator</a></li>
+                <li><a href="http://khirshah.fractalometry.com/host-parasite-model/">Cellular automaton 1</a></li>
+                <li><a href="http://khirshah.fractalometry.com/competition-model/">Cellular automaton 2</a></li>
                 <li><a href="/contact/">Contact</a></li>
             </ul>
         );
