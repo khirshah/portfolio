@@ -9,7 +9,8 @@ export default class Menu extends Component {
                 <li><a href="http://khirshah.fractalometry.com/host-parasite-model/">Cellular automaton 1</a></li>
                 <li><a href="http://khirshah.fractalometry.com/competition-model/">Cellular automaton 2</a></li>
                 <li><a href="https://agi-weather-app.herokuapp.com/">Weather app</a></li>
-                <li><a href="https://agi-ebay-search.herokuapp.com/">Ebay search</a></li>
+                <li><a href="https://agi-ebay-query.herokuapp.com/">Ebay search</a></li>
+                <li><a href="https://fract-acc-app-demo.herokuapp.com/">Ebay search</a></li>
                 <li><a href="/contact/">Contact</a></li>
             </ul>
         );
