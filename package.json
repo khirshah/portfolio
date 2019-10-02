@@ -1,15 +1,13 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "1.0.0"
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devstart": "webpack-dev-server --open",
-    "heroku-prebuild": "",
-    "heroku-postbuild": "babel-node tools/build.js",
-    "build": "babel-node tools/build.js && npm run open:dist",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build" :"webpack"
   },
   "keywords": [],
   "author": "Agnes Meri",
