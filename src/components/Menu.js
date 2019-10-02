@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import styles from "./menu.css";
 
 export default class Menu extends Component {
     render() {
         return (
-          <div>
-            <div><a href="/">Home</a></div>
-            <div><a href="/projects/">Projects</a></div>          
-            <div><a href="/about/">About</a></div>
+          <div className={styles.menu}>
+            <div className={styles.menuItem}><a href="/">Home</a></div>
+            <div className={styles.menuItem}><a href="/projects/">Projects</a></div>          
+            <div className={styles.menuItem}><a href="/about/">About</a></div>
           </div>
         );
     }

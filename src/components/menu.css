@@ -1,0 +1,13 @@
+.menu {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menuItem {
+  width: 200px;
+  background-color: #727272;
+  text-align: center;
+  cursor: pointer;
+}
