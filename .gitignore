@@ -63,5 +63,6 @@ typings/
 #package-lock
 package-lock.json
 
-#/dist
-src/icons
+/dist
+Procfile
+static.json
