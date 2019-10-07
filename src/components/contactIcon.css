@@ -2,6 +2,7 @@
   width: 30px;
   height:30px;
   margin-bottom: 15px; 
+  cursor: pointer;
 }
 
 .github{
@@ -11,6 +12,7 @@
   background-image: url("/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png");
   background-repeat: no-repeat;
   background-size: contain;
+  border: none;
 }
 
 .linkedin{

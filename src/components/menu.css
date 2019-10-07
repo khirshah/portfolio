@@ -9,5 +9,12 @@
   width: 200px;
   background-color: #727272;
   text-align: center;
-  cursor: pointer;
+  font-family: Georgia, serif;
+  color: #E5E5E5;
+  text-decoration: none;
 }
+
+a:link {text-decoration: none; }
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
