@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -32,7 +33,10 @@ module.exports = {
   },
   plugins: [
     ...htmlPlugins,
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+     new CopyPlugin([
+      { from: 'src/assets', to: 'assets' }
+    ])
   ],
   optimization: {
     splitChunks: {
