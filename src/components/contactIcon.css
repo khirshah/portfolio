@@ -1,21 +1,24 @@
 .contactIcon {
   width: 30px;
   height:30px;
-  background-color: white;
   margin-bottom: 15px; 
+  cursor: pointer;
 }
 
 .github{
   width: 30px;
   height:30px;
+  background-color: black;
+  background-image: url("/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png");
   background-repeat: no-repeat;
   background-size: contain;
+  border: none;
 }
 
 .linkedin{
   width: 30px;
   height:30px;
-  background-image: url("../icons/contact/LinkedIn/LI-In-Bug.png");
+  background-image: url("/assets/icons/contact/LinkedIn/LI-In-Bug.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -23,7 +26,7 @@
 .gmail{
   width: 30px;
   height:30px;
-  background-image: url("../icons/contact/Gmail/Gmail_Icon.png");
+  background-image: url("/assets/icons/contact/Gmail/Gmail_Icon.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -31,7 +34,7 @@
 .codingame{  
   width: 30px;
   height:30px;
-  background-image: url("../icons/contact/CodinGame/codingame1.png");
+  background-image: url("/assets/icons/contact/CodinGame/codingame1.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -39,7 +42,7 @@
 .hackerrank{
   width: 30px;
   height:30px;
-  background-image: url("../icons/contact/HackerRank/HackerRank_logo.png");
+  background-image: url("/assets/icons/contact/HackerRank/HackerRank_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
 }

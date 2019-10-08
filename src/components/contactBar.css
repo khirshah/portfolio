@@ -1,6 +1,6 @@
 .contactBar {
   height: 100vh;
-  width:100px;
+  width:30px;
   display: flex;
   flex-direction: column;
   justify-content: center;

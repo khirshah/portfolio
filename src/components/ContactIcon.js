@@ -5,7 +5,7 @@ export default class ContactIcon extends Component {
   render () {
     return (
       <div className={styles.contactIcon}> 
-        <img className={styles[this.props.name]} src={this.props.srcImg}></img>
+        <a href={this.props.link} target="blank"><div className={styles[this.props.name]} src={this.props.srcImg}/></a>
       </div>
       )
   }    
