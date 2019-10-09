@@ -18,7 +18,7 @@ export default class Projects extends Component {
               <ControlledCarousel />
             </div>
           </div>
-          <ProjectsMenu/>
+          {/*<ProjectsMenu/>*/}
         </div>
       </div>
       )
