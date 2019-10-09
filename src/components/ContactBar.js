@@ -4,7 +4,6 @@ import ContactIcon from "./ContactIcon";
 
 export default class ContactBar extends Component {
   render () {
-    console.log()
     return (
       <div className={styles.contactBar}> 
         <ContactIcon name={"github"} link={'https://github.com/khirshah'}/>

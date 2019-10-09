@@ -1,3 +1,12 @@
 .projectsMenu{
   display:flex;
+  flex-direction: column;
+  font-family: Georgia, serif;
+  padding-top:50px;
+  padding-left:50px;
 }
+
+a:link {text-decoration: none;   color: #E5E5E5; }
+a:visited {text-decoration: none;  color: #E5E5E5;}
+a:hover {text-decoration: none;  color: #E5E5E5;}
+a:active {text-decoration: none;  color: #E5E5E5;}

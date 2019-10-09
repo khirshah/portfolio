@@ -11,4 +11,17 @@
 .contentsContainer{
   display:flex;
   flex-direction: row;
+
+}
+
+.carouselContainer{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.carousel{
+  width:600px;
+  height:400px;
 }
