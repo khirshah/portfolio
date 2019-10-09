@@ -1,5 +1,5 @@
 import React, { useState, Component } from 'react';
-import styles from "../styles/projectsMenu.css"
+import styles from "../styles/projectsMenu.css";
 
 export default class Menu extends Component {
     render() {

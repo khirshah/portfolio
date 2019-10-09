@@ -1,26 +1,18 @@
-.firstSlide{
+.mySlide{
   width: 600px;
   height:400px;
-  background-color: black;
-  background-image: url("/assets/images/weatherApp.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.firstSlide{
+  background-image: url("/assets/images/weatherApp.png");
 }
 
 .secondSlide{
-  width: 600px;
-  height:400px;
-  background-color: black;
   background-image: url("/assets/images/ebaySearch.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .thirdSlide{
-  width: 600px;
-  height:400px;
-  background-color: black;
   background-image: url("/assets/images/ca2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Weather App",
+    "name": "weatherApp",
+    "ref": "https://agi-weather-app.herokuapp.com/",
+    "class": "firstSlide",
+    "text":""
+  },
+  {
+    "title": "Ebay Search",
+    "name": "ebaySearch",
+    "ref": "https://agi-ebay-query.herokuapp.com/",
+    "class": "secondSlide",
+    "text":""
+  },
+  {
+    "title": "Cellular automaton",
+    "name": "ca1",
+    "ref": "https://agi-ebay-query.herokuapp.com/",
+    "class": "thirdSlide",
+    "text":""
+  }
+]
