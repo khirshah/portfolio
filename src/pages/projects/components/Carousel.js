@@ -15,6 +15,7 @@ export default class ControlledCarousel extends Component {
     this.state = {
       index: 0,
       direction: null,
+      hasGit: true
     };
   }
 
@@ -27,12 +28,16 @@ export default class ControlledCarousel extends Component {
 
   createSlides(data) {
     const slides = [];
+    let s = {};
     data.map(item => {
+        
+        s = {backgroundImage:item.bg};
         slides.push(        
           <div>
-            <div className={`${styles[item.class]} ${styles.mySlide}`} />
+            <div style={s} className={styles.mySlide} />
             <Carousel.Caption>
-              <a  href={item.ref} target="blank"><h3>{item.title}</h3></a>
+              <a href={item.ref} target="blank"><h3>{item.title}</h3></a>
+              {item.git != "" && <a href={item.git} target="blank"><h5>gitHub</h5></a>}
             </Carousel.Caption>
           </div>
         )

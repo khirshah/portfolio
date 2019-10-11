@@ -3,21 +3,24 @@
     "title": "Weather App",
     "name": "weatherApp",
     "ref": "https://agi-weather-app.herokuapp.com/",
-    "class": "firstSlide",
+    "git":"https://github.com/khirshah/react_weather-app",
+    "bg":"url(/assets/images/weatherApp.png)",
     "text":""
   },
   {
     "title": "Ebay Search",
     "name": "ebaySearch",
     "ref": "https://agi-ebay-query.herokuapp.com/",
-    "class": "secondSlide",
+    "git":"https://github.com/khirshah/react_ebay-query",
+    "bg":"url(/assets/images/ebaySearch.png)",
     "text":""
   },
   {
     "title": "Cellular automaton",
     "name": "ca1",
     "ref": "http://khirshah.fractalometry.com/competition-model/",
-    "class": "thirdSlide",
+    "git":"",
+    "bg":"url(/assets/images/ca2.png)",
     "text":""
   }
 ]

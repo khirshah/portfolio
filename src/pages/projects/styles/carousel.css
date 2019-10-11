@@ -4,15 +4,3 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-.firstSlide{
-  background-image: url("/assets/images/weatherApp.png");
-}
-
-.secondSlide{
-  background-image: url("/assets/images/ebaySearch.png");
-}
-
-.thirdSlide{
-  background-image: url("/assets/images/ca2.png");
-}
