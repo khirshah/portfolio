@@ -30,13 +30,12 @@ export default class ControlledCarousel extends Component {
     data.map(item => {
         slides.push(        
           <div>
-            <div className={`${styles[item.class]} ${styles.mySlide}`}/>
+            <div className={`${styles[item.class]} ${styles.mySlide}`} />
             <Carousel.Caption>
               <a  href={item.ref} target="blank"><h3>{item.title}</h3></a>
             </Carousel.Caption>
           </div>
         )
-
     })
     return slides
   }

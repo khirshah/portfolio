@@ -11,8 +11,8 @@ export default class Projects extends Component {
     return (
       <div className={styles.projects}> 
         <Menu/>
+        <ContactBar/>
         <div className={styles.contentsContainer}>
-          <ContactBar/>
           <div className={styles.carouselContainer}>
             <div className={styles.carousel}>
               <ControlledCarousel />
