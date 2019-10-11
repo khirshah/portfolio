@@ -5,7 +5,8 @@
     "ref": "https://agi-weather-app.herokuapp.com/",
     "git":"https://github.com/khirshah/react_weather-app",
     "bg":"url(/assets/images/weatherApp.png)",
-    "text":""
+    "tools":["react","webpack", "node","axios", "express"],
+    "text":"Weather app Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
   },
   {
     "title": "Ebay Search",
@@ -13,14 +14,44 @@
     "ref": "https://agi-ebay-query.herokuapp.com/",
     "git":"https://github.com/khirshah/react_ebay-query",
     "bg":"url(/assets/images/ebaySearch.png)",
-    "text":""
+    "tools":["react","webpack","node", "express"],
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "title": "Cellular automaton",
+    "title": "Accounting App",
+    "name": "accApp",
+    "ref": "https://fract-acc-app-demo.herokuapp.com/",
+    "git": "https://github.com/khirshah/fract-acc-app",
+    "bg":"url(/assets/images/accApp.png)",
+    "tools":["react","webpack","node", "express","mongo"],
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "title": "Competition model",
     "name": "ca1",
     "ref": "http://khirshah.fractalometry.com/competition-model/",
     "git":"",
     "bg":"url(/assets/images/ca2.png)",
-    "text":""
+    "tools":["js"],
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "title": "Host-parasite model",
+    "name": "ca2",
+    "ref": "http://khirshah.fractalometry.com/host-parasite-model/",
+    "git":"",
+    "bg":"url(/assets/images/ca1.png)",
+    "tools":["js"],
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "title": "Calculator",
+    "name": "calculator",
+    "ref": "https://agi-react-calculator.herokuapp.com/",
+    "git":"https://github.com/khirshah/react_calculator",
+    "bg":"url(/assets/images/calculator2.png)",
+    "tools":["react","webpack","node"],
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
+

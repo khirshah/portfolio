@@ -1,8 +1,9 @@
 .contactBar {
   height: 100%;
   width:30px;
+  position: fixed;
+  z-index: 999;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: fixed;
 }

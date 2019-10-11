@@ -12,6 +12,6 @@ export default class ContactBar extends Component {
         <ContactIcon name={"codingame"} link={'https://www.codingame.com/profile/58a1a525989e591466fe576355e423c30494952'}/>
         <ContactIcon name={"hackerrank"} link={'https://www.hackerrank.com/miyoko'}/>
       </div>
-      )
+    )
   }    
 }
