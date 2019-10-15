@@ -26,24 +26,14 @@ export default class ControlledCarousel extends Component {
     });
   }
 
-  handleDescChange(title,text) {
-    this.setState({
-      title: title,
-      desc:text
-    })
-  }
-
-  createSlides(data) {
+  createSlides(d) {
     const slides = [];
-    const gitLogo = {backgroundImage: "url(/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png)"}
+    const gitLogo = {backgroundImage: "url(/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png)"};
     let s = {};
-    data.map(item => {
+    d.map(item => {
         s = {backgroundImage:item.bg};
         slides.push(        
-          <div>
-            <div className={styles.caption} >
-              <a href={item.ref} target="blank"><h3>{data[this.state.index].title}</h3></a>
-            </div>
+          <div key={item.name}>
             <div style={s} className={styles.image}/>
             {item.git != "" &&
               <a href={item.git} target="blank"> 
@@ -55,19 +45,35 @@ export default class ControlledCarousel extends Component {
     return slides
   }
 
+  createToolIcons(tools) {
+    const toolIcons = [];
+    let logo = {};
+    tools.map(t => {
+      logo = {backgroundImage: `url(/assets/icons/tools/${t}.png)`};
+      toolIcons.push(
+        <div key={t} style={logo} className={styles.toolIcon}></div>
+        )
+    })
+    return toolIcons  
+  }
+
   render() {
     const { index, direction } = this.state
 
     return (
       <div className={styles.carousel}>
+        <div className={styles.caption} >
+          <a href={data[this.state.index].title} target="blank"><h3>{data[this.state.index].title}</h3></a>
+        </div>
         <Carousel
           activeIndex={index}
           direction={direction}
           onSelect={this.handleSelect}
           interval={100000}
         >
-          {this.createSlides(data).map((i,index) => <Carousel.Item className={styles.mySlide} key={name}>{i}</Carousel.Item>)}
+          {this.createSlides(data).map((i,index) => <Carousel.Item className={styles.mySlide} key={index}>{i}</Carousel.Item>)}
         </Carousel>
+        <div className={styles.toolBar}>{this.createToolIcons(data[this.state.index].tools)}</div>
         <div className={styles.description}>
           <p>{data[this.state.index].text}</p>
         </div>
