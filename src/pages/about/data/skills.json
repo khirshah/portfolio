@@ -1,0 +1,7 @@
+{
+  "html": ["html5","jsx"],
+  "css":["css3","bootstrap"],
+  "javascript": ["javascript","react", "nodejs", "expressjs"],
+  "database": ["mongoDB", "sql"],
+  "other": ["webpack","github", "heroku", "bash"]
+}
