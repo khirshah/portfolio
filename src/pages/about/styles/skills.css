@@ -8,11 +8,16 @@
 }
 
 .skillGroup{
+  width:400px;
   display:flex;
   flex-direction: row;
+  justify-content: space-evenly;
   background-color: #E5E5E5;
   color: black;
   margin: 5px;
+  padding: 5px;
+  border-radius:5px;
+  border: solid 3px #4C4C4C;
 }
 
 .skill{

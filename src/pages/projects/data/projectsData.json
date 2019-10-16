@@ -6,7 +6,7 @@
     "git":"https://github.com/khirshah/react_weather-app",
     "bg":"url(/assets/images/weatherApp.png)",
     "tools":["react","webpack", "nodejs", "expressjs"],
-    "text":"Weather app Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+    "text":"Application querying weather data from https://openweathermap.org/. It is backed with a separate expressjs server that sends the queries to the openweathermap.org public API and transfers the data to the client app. The client side application is built with ReactJS. the http requests are carried out with the axios npm package." 
   },
   {
     "title": "Ebay Search",
@@ -15,7 +15,7 @@
     "git":"https://github.com/khirshah/react_ebay-query",
     "bg":"url(/assets/images/ebaySearch.png)",
     "tools":["react","webpack","nodejs", "expressjs"],
-    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text":"Application for carrying out search on Ebay. The separate server app (built with expressjs) sends queries to the Ebay public API. The data recieved is transferred to the client side application. I used ReactJS on the client side and the http request from client to server are carried out wiht the axios npm package."
   },
   {
     "title": "Accounting App",
@@ -23,8 +23,8 @@
     "ref": "https://fract-acc-app-demo.herokuapp.com/",
     "git": "https://github.com/khirshah/fract-acc-app",
     "bg":"url(/assets/images/accApp.png)",
-    "tools":["react","webpack","nodejs", "expressjs","mongoDB"],
-    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "tools":["nodejs","jquery","webpack","expressjs","mongoDB"],
+    "text":"Accounting application "
   },
   {
     "title": "Competition model",
@@ -33,7 +33,7 @@
     "git":"",
     "bg":"url(/assets/images/ca2.png)",
     "tools":["javascript"],
-    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text":"Cellular automaton model of 2 competing species. Made with Vanilla JavaScript around 2013."
   },
   {
     "title": "Host-parasite model",
@@ -42,7 +42,7 @@
     "git":"",
     "bg":"url(/assets/images/ca1.png)",
     "tools":["javascript"],
-    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text":"Cellular automaton representation of a host-parasite model. I used this model and some alternatives for my PhD research 2010-2013. To analyze the data we built equivalent models in C++ without graphical representation. Thus we could make runs in big numbers and then make statistical analysis of the data captured. Related scientific article can be found on the About page of my website."
   },
   {
     "title": "Calculator",
@@ -51,7 +51,7 @@
     "git":"https://github.com/khirshah/react_calculator",
     "bg":"url(/assets/images/calculator2.png)",
     "tools":["react","webpack","nodejs"],
-    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text":"My first small project in ReactJS. I was focusing on the UI and put very little efforts into the calculator part itself. It does basic arithmetic operations: +, -, *, /"
   }
 ]
 
