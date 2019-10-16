@@ -1,7 +1,22 @@
 {
-  "html": ["html5","jsx"],
-  "css":["css3","bootstrap"],
-  "javascript": ["javascript","react", "nodejs", "expressjs", "jquery"],
-  "database": ["mongoDB", "sql"],
-  "other": ["webpack","github", "heroku", "bash"]
+  "html": {
+    "title":"HTML",
+    "items":["html5","jsx"]
+  },
+  "css":{
+    "title":"CSS",
+    "items":["css3","bootstrap"]
+  },
+  "javascript":{ 
+    "title":"JavaScript",
+    "items":["javascript","react", "nodejs", "expressjs", "jquery"]
+  },
+  "database": {
+    "title":"Database",
+    "items":["mongoDB", "sql"]
+  },
+  "other":{
+    "title":"Other",
+    "items":["webpack","github", "heroku", "bash"]
+  } 
 }
