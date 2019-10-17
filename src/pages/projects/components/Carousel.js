@@ -1,4 +1,5 @@
 import React, { useState, Component } from 'react';
+import GitHub from "../../../components/GitHub";
 import {Carousel} from 'react-bootstrap';
 import '!style-loader!css-loader!bootstrap/dist/css/bootstrap.css';
 import styles from "../styles/carousel.css";
@@ -28,7 +29,6 @@ export default class ControlledCarousel extends Component {
 
   createSlides(d) {
     const slides = [];
-    const gitLogo = {backgroundImage: "url(/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png)"};
     let s = {};
     d.map(item => {
         s = {backgroundImage:item.bg};
@@ -36,9 +36,10 @@ export default class ControlledCarousel extends Component {
           <div key={item.name}>
             <div style={s} className={styles.image}/>
             {item.git != "" &&
-              <a href={item.git} target="blank"> 
-                <div className={styles.git} style={gitLogo}/>
-              </a>}
+              <div className={styles.git}>
+                <GitHub gitlink={item.git}/>
+              </div>
+            }
           </div>
         )
     })

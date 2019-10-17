@@ -35,8 +35,6 @@ export default class Skills extends Component {
       <div className={styles.skillsContainer}>
         <h3 className={styles.Title}>Skills</h3>
         {this.createSkillGroups()}
-        <h3 className={styles.Title}>Articles</h3>
-        <h3 className={styles.Title}>CV</h3>
       </div>
       )
   }    

@@ -9,7 +9,24 @@
 }
 
 .contentsContainer{
-  height: 100vh;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom:50px;
+  padding-top:30px;
+}
+
+.title{
+  text-align: center;
+}
+
+.pdfContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
