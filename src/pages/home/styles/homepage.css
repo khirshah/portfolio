@@ -1,20 +1,4 @@
 .homepage {
-  font-family: Georgia, serif;
-  background-image: linear-gradient(#3F3F3F, #262626);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #E5E5E5;
-  width: 100%;
-  min-height:100vh;
-}
-
-.contents{
-  width: 100%;
-  height:100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .textContainer{

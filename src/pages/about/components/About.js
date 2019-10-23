@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Page from "../../../components/Page";
 import Menu from "../../../components/Menu";
 import ContactBar from "../../../components/ContactBar";
 import Skills from "./Skills";
@@ -8,10 +9,7 @@ import styles from "../styles/about.css";
 export default class About extends Component {
   render () {
     return (
-      <div className={styles.about}> 
-        <Menu/>
-        <ContactBar/>
-        <div className={styles.contentsContainer}>
+      <Page styles={styles.about}>
           <Skills></Skills>
           <div className={styles.section}>
             <h3 className={styles.title}>Articles</h3>
@@ -24,8 +22,7 @@ export default class About extends Component {
             <h3 className={styles.title}>CV</h3>
             <Pdf image="/assets/docs/cv.png" link="/assets/docs/CV_Agnes_Meri.pdf"/>
           </div>
-        </div>
-      </div>
+      </Page>
       )
   }    
 }
