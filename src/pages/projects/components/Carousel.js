@@ -13,17 +13,14 @@ export default class ControlledCarousel extends Component {
 
     this.state = {
       index: 0,
-      direction: null,
-      hasGit: true
+      direction: null
     };
   }
 
   handleSelect(selectedIndex, e) {
     this.setState({
       index: selectedIndex,
-      direction: e.direction,
-      title: "",
-      desc:""
+      direction: e.direction
     });
   }
 
@@ -64,7 +61,7 @@ export default class ControlledCarousel extends Component {
     return (
       <div className={styles.carousel}>
         <div className={styles.caption} >
-          <a href={data[this.state.index].title} target="blank"><h3>{data[this.state.index].title}</h3></a>
+          <a href={data[this.state.index].ref} target="blank"><h3>{data[this.state.index].title}</h3></a>
         </div>
         <Carousel
           activeIndex={index}

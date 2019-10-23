@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Page from "../../../components/Page";
 import Menu from "../../../components/Menu";
 import ContactBar from "../../../components/ContactBar";
-import ProjectsMenu from "./ProjectsMenu";
 import ControlledCarousel from './Carousel';
 import styles from "../styles/projects.css"
 
