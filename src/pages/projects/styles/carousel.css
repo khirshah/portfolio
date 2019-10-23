@@ -9,6 +9,10 @@
   height:340px;
 }
 
+*, ::before, ::after {
+    box-sizing: content-box;
+}
+
 .image{
   width: 600px;
   height:370px;
