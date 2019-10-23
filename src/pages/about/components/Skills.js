@@ -24,8 +24,8 @@ export default class Skills extends Component {
           <div className={styles.skillGroupTitle}>{data[i].title}</div>
           <div className={styles.skillIcons}>{this.createSkillItems(data[i].items)}</div>
         </div>
-        )
-    })
+      );
+    });
 
     return skillGroups;
   }
