@@ -3,7 +3,7 @@
   height: 50px;
   position: fixed;
   display: flex;
-  background-color: rgba(20,20,20,0.5);
+  background-color: #59922E;
   align-items: center;
   z-index: 999;
 }
@@ -16,9 +16,8 @@
 
 .menuItem {
   width: 200px;
-  background-color: #727272;
   text-align: center;
-  color: #E5E5E5;
+  color: #0d0d0d;
   font-weight:normal;
   text-decoration: none;
 }

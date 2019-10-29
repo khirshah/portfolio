@@ -1,17 +1,13 @@
-.about {  
+.title {
+  color: #59922E;
 }
 
-.title{
-  text-align: center;
-}
-
-.pdfContainer{
+.pdfContainer {
   display: flex;
-  justify-content: center;
 }
 
 .section {
+  width: 840px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }

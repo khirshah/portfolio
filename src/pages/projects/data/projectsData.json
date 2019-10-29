@@ -23,7 +23,7 @@
     "ref": "https://fract-acc-app-demo.herokuapp.com/",
     "git": "https://github.com/khirshah/fract-acc-app",
     "bg":"url(/assets/images/accApp.png)",
-    "tools":["nodejs","jquery","webpack","expressjs","mongoDB"],
+    "tools":["nodejs","jquery","webpack","expressjs","mongo1"],
     "text":"Accounting application "
   },
   {
@@ -49,7 +49,7 @@
     "name": "calculator",
     "ref": "https://agi-react-calculator.herokuapp.com/",
     "git":"https://github.com/khirshah/react_calculator",
-    "bg":"url(/assets/images/calculator2.png)",
+    "bg":"url(/assets/images/calculator.png)",
     "tools":["react","webpack","nodejs"],
     "text":"My first small project in ReactJS. I was focusing on the UI and put very little efforts into the calculator part itself. It does basic arithmetic operations: +, -, *, /"
   }

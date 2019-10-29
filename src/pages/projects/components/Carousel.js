@@ -47,7 +47,7 @@ export default class ControlledCarousel extends Component {
     const toolIcons = [];
     let logo = {};
     tools.map(t => {
-      logo = {backgroundImage: `url(/assets/icons/tools/${t}.png)`};
+      logo = {backgroundImage: `url(/assets/icons/tools/${t}xxxhdpi.png)`};
       toolIcons.push(
         <div key={t} style={logo} className={styles.toolIcon}></div>
         )

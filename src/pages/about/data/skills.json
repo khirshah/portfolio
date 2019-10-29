@@ -5,18 +5,18 @@
   },
   "css":{
     "title":"CSS",
-    "items":["css3","bootstrap"]
+    "items":["css","bootstrap"]
   },
   "javascript":{ 
-    "title":"JavaScript",
+    "title":"JAVASCRIPT",
     "items":["javascript","react", "nodejs", "expressjs", "jquery"]
   },
   "database": {
-    "title":"Database",
-    "items":["mongoDB", "sql"]
+    "title":"DATABASE",
+    "items":["mongo1", "sql"]
   },
   "other":{
-    "title":"Other",
-    "items":["webpack","github", "heroku", "bash"]
+    "title":"OTHER",
+    "items":["webpack","git3", "heroku", "bash"]
   } 
 }
