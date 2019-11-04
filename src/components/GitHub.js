@@ -1,7 +1,7 @@
-import React, { useState, Component } from 'react';
+import React, {Component } from 'react';
 import styles from "./gitHub.css";
 
-export default class Menu extends Component {
+export default class GitHub extends Component {
 
     render() {
         const gitLogo = {backgroundImage: "url(/assets/icons/tools/git1xxxhdpi.png)"};

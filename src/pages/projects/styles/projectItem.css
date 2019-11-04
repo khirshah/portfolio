@@ -1,0 +1,67 @@
+.projectItem {
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.projectPicture {
+  width:400px;
+  height:240px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.projectTitle {
+  height: 30px;
+  padding-left: 25px;
+  padding-top:10px;
+  background-color: #59922E;
+  color: #1f1f1f;
+}
+
+.projectDescription {
+  height:190px;
+  padding: 25px;
+  background-color: #1f1f1f;
+  color: #FFF9B3;
+}
+
+.iconBar {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1f1f1f;
+}
+
+.toolBar {
+  padding: 10px 10px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.toolIcon {
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 5px 10px 5px 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px 15px 10px;
+}
+
+.git {
+  z-index:999;
+  margin: 5px 10px 5px 10px;
+}
+
+.download {
+  margin: 5px 10px 5px 10px;
+}

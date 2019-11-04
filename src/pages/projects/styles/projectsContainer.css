@@ -1,0 +1,8 @@
+.projectsContainer {
+  width: 880px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
