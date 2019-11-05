@@ -15,7 +15,7 @@
     "git":"https://github.com/khirshah/react_ebay-query",
     "bg":"url(/assets/images/ebaySearch.png)",
     "tools":["react","webpack","nodejs", "expressjs"],
-    "text":"Application for carrying out search on Ebay. The separate server app (built with expressjs) sends queries to the Ebay public API. The data recieved is transferred to the client side application. I used ReactJS on the client side and the http request from client to server are carried out wiht the axios npm package."
+    "text":"Application for carrying out search on Ebay. The separate server app (built with expressjs) sends queries to the Ebay public API. The data recieved is transferred to the client side application. I used ReactJS on the client side and the http request from client to server are carried out with the axios npm package."
   },
   {
     "title": "ACCOUNTING APP",
