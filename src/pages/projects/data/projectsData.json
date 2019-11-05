@@ -42,7 +42,7 @@
     "git":"",
     "bg":"url(/assets/images/ca1.png)",
     "tools":["javascript"],
-    "text":"Cellular automaton representation of a host-parasite model. I used this model and some alternatives for my PhD research 2010-2013. To analyze the data we built equivalent models in C++ without graphical representation. Thus we could make runs in big numbers and then make statistical analysis of the data captured. Related scientific article can be found on the About page of my website."
+    "text":"Cellular automaton representation of a host-parasite model. I used this model and some alternatives for my PhD research 2010-2013. We built equivalent models in C++ without graphical representation. Thus we could make runs in big numbers and statistical analysis of the data captured. Related scientific article can be found on the About page of my website."
   },
   {
     "title": "CALCULATOR",

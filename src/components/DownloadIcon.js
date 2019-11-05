@@ -5,9 +5,11 @@ export default class DownloadIcon extends Component {
 
     render() {
         return (
-          <a href={this.props.link} target="blank"> 
-            <div className={styles.downloadIcon}/>
-          </a>
+          <div className={styles.iconContainer}>
+            <a href={this.props.link} target="blank"> 
+              <div className={styles.downloadIcon}/>
+            </a>
+          </div>
         );
     }
 }

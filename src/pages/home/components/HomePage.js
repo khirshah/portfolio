@@ -13,7 +13,6 @@ export default class HomePage extends Component {
       <Page styles={styles.homepage}> 
           <div className={styles.textContainer}>
             <p>Welcome to my website!</p>
-            <p>It is under development at the moment but the content is mainly ready.</p>
             <p>Feel free to have a look at my <a href="/projects/">projects</a>,</p>
             <p>or check out my <a href="/about/">skills and achievments.</a></p>
             <p>You can also follow the progress of the development on my github page:</p>

@@ -1,7 +1,28 @@
+.pdfContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .pdfImg{
-  width:250px;
-  height:250px;
+  width:400px;
+  height:239px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.pdfTitle {
+  display:flex;
+  flex-direction: column;
+  width:350px;
+  height:189px;
+  padding: 25px;
+  font-size:18px;
+  background-color: #1f1f1f;
+  color: #59922E;
+}
+
+.text {
+  display:flex;
+  flex-grow: 1;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from "../styles/projectItem.css";
 import data from "../data/projectsData.json";
 import GitHub from "../../../components/GitHub";
-import DownloadIcon from "../../../components/DownloadIcon";
+import RedirectIcon from "../../../components/RedirectIcon";
 
 export default class ProjectItem extends Component {
   
@@ -24,7 +24,7 @@ export default class ProjectItem extends Component {
         <div className={styles.projectPicture} style={{backgroundImage: this.props.image}} />
         <div className={styles.projectTitle}>{this.props.title}</div>
         <div className={styles.projectDescription}>
-          {this.props.desc}
+          <p>{this.props.desc}</p>
         </div>
         <div className={styles.iconBar}>
           <div className={styles.toolBar}>
@@ -37,7 +37,7 @@ export default class ProjectItem extends Component {
               </div>
             }
             <div className={styles.download}>
-              <DownloadIcon link={this.props.link}/>
+              <RedirectIcon link={this.props.link}/>
             </div>
           </div>
         </div>

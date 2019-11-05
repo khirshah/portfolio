@@ -1,8 +1,9 @@
 .homepage {
-  
 }
 
 .textContainer {
+  margin-top:150px;
+  font-family: 'Arial';
   text-align: center; 
   color: #FFF9B3;
 }
