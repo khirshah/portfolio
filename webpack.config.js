@@ -82,7 +82,8 @@ module.exports = {
         use: {
             loader: 'babel-loader'
         }
-      }
+      },
+      { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'url-loader?limit=100000'}
     ]
   },
   performance: { hints: false }
