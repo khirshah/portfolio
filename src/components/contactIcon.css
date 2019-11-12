@@ -9,22 +9,22 @@
 
 .github{
   background-color: black;
-  background-image: url("/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png");
+  background-image: url("/assets/icons/contact/git2xhdpi.png");
 }
 
 .linkedin{
-  background-image: url("/assets/icons/contact/LinkedIn/LI-In-Bug.png");
+  background-image: url("/assets/icons/contact/linkedinxhdpi.png");
 
 }
 
 .gmail{
-  background-image: url("/assets/icons/contact/Gmail/Gmail_Icon.png");
+  background-image: url("/assets/icons/contact/gmailxhdpi.png");
 }
 
 .codingame{  
-  background-image: url("/assets/icons/contact/CodinGame/codingame1.png");
+  background-image: url("/assets/icons/contact/codingamexhdpi.png");
 }
 
 .hackerrank{
-  background-image: url("/assets/icons/contact/HackerRank/HackerRank_logo.png");
+  background-image: url("/assets/icons/contact/hackerxhdpi.png");
 }
