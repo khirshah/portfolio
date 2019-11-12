@@ -26,8 +26,8 @@
   padding: 50px 40px 50px 40px;
 }
 
-a {text-decoration: none; }
-a:link {text-decoration: none; }
-a:visited {text-decoration: none;}
-a:hover {text-decoration: none;}
-a:active {text-decoration: none;}
+a {text-decoration: none; color: #59922E;}
+a:link {text-decoration: none; color: #59922E;}
+a:visited {text-decoration: none; color: #59922E;}
+a:hover {text-decoration: none; color: #59922E;}
+a:active {text-decoration: none; color: #59922E;}

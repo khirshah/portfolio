@@ -19,8 +19,3 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-a:link {text-decoration: none;   color: #59922E; }
-a:visited {text-decoration: none;  color: #59922E;}
-a:hover {text-decoration: none;  color: #59922E;}
-a:active {text-decoration: none;  color: #59922E;}
