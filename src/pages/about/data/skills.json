@@ -1,22 +1,87 @@
 {
   "html": {
     "title":"HTML",
-    "items":["html5","jsx"]
+    "items":[
+      {
+        "name": "html5",
+        "title": "HTML5"
+      },
+      {
+        "name": "jsx",
+        "title": "JSX"
+      }
+    ]
   },
   "css":{
     "title":"CSS",
-    "items":["css","bootstrap"]
+    "items":[
+      {
+        "name": "css",
+        "title": "CSS"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap"
+      }
+    ]
   },
   "javascript":{ 
     "title":"JAVASCRIPT",
-    "items":["javascript","react", "nodejs", "expressjs", "jquery"]
+    "items":[
+      {
+        "name":"javascript",
+        "title": "JavaScript"
+      },
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+            {
+        "name": "nodejs",
+        "title": "NodeJS"
+      },
+      {
+        "name": "expressjs",
+        "title": "ExpressJS"
+      },
+            {
+        "name": "jquery",
+        "title": "JQuery"
+      }
+    ]
   },
   "database": {
     "title":"DATABASE",
-    "items":["mongo1", "sql"]
+    "items":[
+      {
+        "name": "mongo1",
+        "title": "MongoDB"
+      },
+      {
+        "name": "sql",
+        "title": "SQL"
+      }
+    ]
   },
   "other":{
     "title":"OTHER",
-    "items":["webpack","git3", "heroku", "bash"]
+    "items":[
+      {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+            {
+        "name": "git3",
+        "title": "Git"
+      },
+      {
+        "name": "heroku",
+        "title": "Heroku"
+      },
+      {
+        "name": "bash",
+        "title": "Bash"
+      }
+    ]
   } 
 }

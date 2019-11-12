@@ -8,11 +8,9 @@ export default class ProjectItem extends Component {
   
   createToolIcons(tools) {
     const toolIcons = [];
-    let logo = {};
     tools.map(t => {
-      logo = {backgroundImage: `url(/assets/icons/tools/${t}xxxhdpi.png)`};
       toolIcons.push(
-        <div key={t} style={logo} className={styles.toolIcon}></div>
+        <div key={t} style={{backgroundImage: `url(/assets/icons/tools/${t}xxxhdpi.png)`}} className={styles.toolIcon}></div>
         )
     })
     return toolIcons  

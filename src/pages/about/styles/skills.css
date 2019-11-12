@@ -31,10 +31,10 @@
 }
 
 .skill {
-  width:65px;
-  height:65px;
+  width:55px;
+  height:55px;
+  margin: 5px 5px 5px 30px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin-left: 30px;
 }
