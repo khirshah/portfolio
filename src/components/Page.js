@@ -8,10 +8,11 @@ export default class Page extends Component {
     return (
       <div className={`${styles.page} ${this.props.styles} container-fluid`}> 
         <Menu/>
-        <ContactBar/>
+                <ContactBar/>
         <div className={styles.contentsContainer}>
           {this.props.children}
         </div>
+
       </div>
     )
   }    

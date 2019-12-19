@@ -1,7 +1,10 @@
-.menuContainer{
-  position: fixed;
+.menuContainer {
+  opacity: 0.5;
+  position: relative;
   background-color: #59922E;
-  z-index: 999;
+  z-index: 50;
+  height: 50px;
+
 }
 .menu {
   justify-content: center;
