@@ -5,8 +5,8 @@ import ContactIcon from "./ContactIcon";
 export default class ContactBar extends Component {
   render () {
     return (
-      <div className={styles.contactBarContainer}>
-        <div className={styles.contactBar}>
+      <div className={`${styles.contactBarContainer}  d-flex col-12`}>
+        <div className={`${styles.contactBar} d-flex flex-row flex-md-column col-12`}>
           <ContactIcon name={"gmail"} link={'mailto:agnes.meri.work@gmail.com'}/> 
           <ContactIcon name={"linkedin"} link={'https://www.linkedin.com/in/agnes-meri-a50ba4173/'}/>
           <ContactIcon name={"github"} link={'https://github.com/khirshah'}/>
