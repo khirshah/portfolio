@@ -1,7 +1,6 @@
 .menuContainer{
   position: fixed;
-  background-color: #59922E;
-  z-index: 999;
+  background: inherit;
 }
 .menu {
   justify-content: center;
