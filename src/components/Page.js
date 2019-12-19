@@ -6,13 +6,14 @@ import styles from "./page.css";
 export default class Page extends Component {
   render () {
     return (
-      <div className={`${styles.page} ${this.props.styles} container-fluid`}> 
-        
-        <Menu/>
-        <ContactBar/>
+      <div className={`${styles.page} ${this.props.styles} container-fluid`}>  
+        <div className={`${styles.pageHeader} d-flex col-12 p-0`}>
+          <Menu/>
+        </div> 
         <div className={styles.contentsContainer}>
           {this.props.children}
         </div>
+        <ContactBar/>
       </div>
     )
   }    

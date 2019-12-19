@@ -16,6 +16,14 @@
   background-position: 50% 0%;
 }
 
+.pageHeader {
+  position: fixed;
+  top:0;
+  height: 100px;
+  background: inherit;
+  display: flex;
+}
+
 .contentsContainer {
   width: 840px;
   display:flex;

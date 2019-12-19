@@ -1,6 +1,9 @@
-.menuContainer{
-  position: fixed;
-  background: inherit;
+.menuContainer {
+  position: absolute;
+  bottom: 0;
+  background-color: #59922E;
+  height: 30px;
+
 }
 .menu {
   justify-content: center;
