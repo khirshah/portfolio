@@ -1,21 +1,13 @@
 .menuContainer{
-  width: 100vw;  
-  height: 50px;
   position: fixed;
-  display: flex;
   background-color: #59922E;
-  align-items: center;
   z-index: 999;
 }
 .menu {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
 .menuItem {
-  width: 200px;
   text-align: center;
   color: #0d0d0d;
   font-size: 20px;

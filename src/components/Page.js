@@ -6,7 +6,7 @@ import styles from "./page.css";
 export default class Page extends Component {
   render () {
     return (
-      <div className={`${styles.page} ${this.props.styles}`}> 
+      <div className={`${styles.page} ${this.props.styles} container-fluid`}> 
         <Menu/>
         <ContactBar/>
         <div className={styles.contentsContainer}>
