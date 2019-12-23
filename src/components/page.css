@@ -19,9 +19,16 @@
 .pageHeader {
   position: fixed;
   top:0;
-  height: 100px;
+  height: 130px;
   background: inherit;
   display: flex;
+  justify-content: center;
+  color: #FFF9B3A3;
+  z-index:1;
+}
+.pageHeader p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .contentsContainer {
@@ -30,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 40px 50px 40px;
+  padding: 130px 40px 50px 40px;
 }
 
 a {text-decoration: none; color: #59922E;}
