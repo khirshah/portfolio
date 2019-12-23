@@ -29,9 +29,11 @@ export default class Projects extends Component {
   render () {
     return (
       <Page styles={styles.projects}>
-        <div className={styles.projectsTitle}>PROJECTS</div>
         <div className={styles.projectsContainer}>
-          {this.createProjects()}
+          <div className={styles.projectsTitle}>PROJECTS</div>
+          <div className={styles.projectItemsContainer}>
+            {this.createProjects()}
+          </div>
         </div>
       </Page>
       )

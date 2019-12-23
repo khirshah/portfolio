@@ -32,7 +32,7 @@
 }
 
 .contentsContainer {
-  width: 840px;
+  /*width: 840px;*/
   display:flex;
   flex-direction: column;
   justify-content: center;
