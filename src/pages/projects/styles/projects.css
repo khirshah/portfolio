@@ -7,7 +7,6 @@
 }
 
 .projectsTitle {
-  /*width:880px;*/
   padding-left:20px;
   display:table;
   color: #59922E;
@@ -17,8 +16,6 @@
 
 .projectItemsContainer {
   max-width: 880px;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
   display: flex;
   flex-direction: row;
   justify-content: center;

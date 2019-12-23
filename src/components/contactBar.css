@@ -10,6 +10,7 @@
     height: 260px;
     padding: 0px;    
     margin: auto 0;
+    background-color: rgba(0,0,0,0.3);
   }
 }
 
@@ -22,5 +23,5 @@
 .contactBar {
   z-index: 999;
   justify-content: center;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,1);
 }

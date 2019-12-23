@@ -32,7 +32,6 @@
 }
 
 .contentsContainer {
-  /*width: 840px;*/
   display:flex;
   flex-direction: column;
   justify-content: center;
