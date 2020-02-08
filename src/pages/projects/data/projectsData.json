@@ -5,7 +5,24 @@
     "ref": "https://agi-weather-app.herokuapp.com/",
     "git":"https://github.com/khirshah/react_weather-app",
     "bg":"url(/assets/images/weatherApp.png)",
-    "tools":["react","webpack", "nodejs", "expressjs"],
+    "tools":[      
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+            {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+            {
+        "name": "nodejs",
+        "title": "NodeJS"
+      },
+            {
+        "name": "expressjs",
+        "title": "ExpressJS"
+      }
+    ],
     "text":"Application querying weather data from https://openweathermap.org/. It is backed with a separate expressjs server that sends the queries to the openweathermap.org public API and transfers the data to the client app. The client side application is built with ReactJS. the http requests are carried out with the axios npm package." 
   },
   {
@@ -14,7 +31,24 @@
     "ref": "https://agi-ebay-query.herokuapp.com/",
     "git":"https://github.com/khirshah/react_ebay-query",
     "bg":"url(/assets/images/ebaySearch.png)",
-    "tools":["react","webpack","nodejs", "expressjs"],
+    "tools":[      
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+            {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+            {
+        "name": "nodejs",
+        "title": "NodeJS"
+      },
+            {
+        "name": "expressjs",
+        "title": "ExpressJS"
+      }
+    ],
     "text":"Application for carrying out search on Ebay. The separate server app (built with expressjs) sends queries to the Ebay public API. The data recieved is transferred to the client side application. I used ReactJS on the client side and the http request from client to server are carried out with the axios npm package."
   },
   {
@@ -23,7 +57,28 @@
     "ref": "https://fract-acc-app-demo.herokuapp.com/",
     "git": "https://github.com/khirshah/fract-acc-app",
     "bg":"url(/assets/images/accApp.png)",
-    "tools":["nodejs","jquery","webpack","expressjs","mongo1"],
+    "tools":[      
+      {
+        "name": "jquery",
+        "title": "JQuery"
+      },
+            {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+            {
+        "name": "nodejs",
+        "title": "NodeJS"
+      },
+            {
+        "name": "expressjs",
+        "title": "ExpressJS"
+      },
+      {
+        "name": "mongo1",
+        "title": "MongoDB"
+      }
+    ],
     "text":"Demo of the accounting application that I made for inside use in our company. It gets real time exchange data from https://currencylayer.com/ public API. It has a currency exchange funcionality as well as other type of transactions can be entered and monitored."
   },
   {
@@ -32,7 +87,12 @@
     "ref": "http://khirshah.fractalometry.com/competition-model/",
     "git":"",
     "bg":"url(/assets/images/ca2.png)",
-    "tools":["javascript"],
+    "tools":[
+      {
+        "name":"javascript",
+        "title": "JavaScript"
+      }
+    ],
     "text":"Cellular automaton model of 2 competing species. Made with Vanilla JavaScript around 2013. The paramteres can be changed and the model behaviour changes accordingly. Default values ensure and almost equillibrium state of the model."
   },
   {
@@ -41,7 +101,12 @@
     "ref": "http://khirshah.fractalometry.com/host-parasite-model/",
     "git":"",
     "bg":"url(/assets/images/ca1.png)",
-    "tools":["javascript"],
+    "tools":[
+      {
+        "name":"javascript",
+        "title": "JavaScript"
+      }
+    ],
     "text":"Cellular automaton representation of a host-parasite model. I used this model and some alternatives for my PhD research. We built equivalent models in C++ without graphical representation to allow running them many times and statistically analyse the captured data. Related publication can be found on the About page of my website."
   },
   {
@@ -50,7 +115,20 @@
     "ref": "https://agi-react-calculator.herokuapp.com/",
     "git":"https://github.com/khirshah/react_calculator",
     "bg":"url(/assets/images/calculator.png)",
-    "tools":["react","webpack","nodejs"],
+    "tools":[      
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+      {
+        "name": "nodejs",
+        "title": "NodeJS"
+      }
+    ],
     "text":"My first small project in ReactJS. It does basic arithmetic operations: +, -, *, /"
   }
 ]

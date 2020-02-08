@@ -36,7 +36,7 @@
         "name": "react",
         "title": "ReactJS"
       },
-            {
+      {
         "name": "nodejs",
         "title": "NodeJS"
       },
@@ -44,7 +44,7 @@
         "name": "expressjs",
         "title": "ExpressJS"
       },
-            {
+      {
         "name": "jquery",
         "title": "JQuery"
       }

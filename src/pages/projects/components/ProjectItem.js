@@ -8,9 +8,9 @@ export default class ProjectItem extends Component {
   
   createToolIcons(tools) {
     const toolIcons = [];
-    tools.map(t => {
+    tools.map(tool => {
       toolIcons.push(
-        <div key={t} style={{backgroundImage: `url(/assets/icons/tools/${t}xxxhdpi.png)`}} className={styles.toolIcon}></div>
+        <div key={tool.name} style={{backgroundImage: `url(/assets/icons/tools/${tool.name}xxxhdpi.png)`}} className={styles.toolIcon} title={tool.title}></div>
         )
     })
     return toolIcons  
@@ -19,8 +19,12 @@ export default class ProjectItem extends Component {
   render () {
     return (
       <div className={styles.projectItem}>
-        <div className={styles.projectPicture} style={{backgroundImage: this.props.image}} />
-        <div className={styles.projectTitle}>{this.props.title}</div>
+        <a href={this.props.link}>
+          <div className={styles.projectPicture} style={{backgroundImage: this.props.image}} />
+        </a>
+        <a href={this.props.link}>
+          <div className={styles.projectTitle}>{this.props.title}</div>
+        </a>
         <div className={styles.projectDescription}>
           <p>{this.props.desc}</p>
         </div>
