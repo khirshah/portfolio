@@ -5,7 +5,7 @@
   margin-top:150px;
   font-family: 'Arial';
   text-align: center; 
-  color: #FFF9B3;
+  color: #FFF9B3A3;
 }
 
 .textContainer h1 {
@@ -14,29 +14,4 @@
 
 .textContainer p {
   font-size: 1.8em;
-}
-
-.textContainer a {
-  font-weight: normal;
-  text-decoration: none;
-  color: #59922E;
-}
-
-.textContainer a:link {
-  text-decoration: none;
-  color: #59922E;
-}
-
-.textContainer a:hover {
-  text-decoration: none;
-  color: #59922E;
-}
-
-.textContainer a:active {
-  text-decoration: none;
-  color: #59922E;
-}
-
-.textContainer a:visited {
-  text-decoration: none;
 }

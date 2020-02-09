@@ -1,35 +1,21 @@
-.menuContainer{
-  width: 100vw;  
-  height: 50px;
-  position: fixed;
-  display: flex;
+.menuContainer {
+  position: absolute;
+  bottom: 20px;
   background-color: #59922E;
-  align-items: center;
-  z-index: 999;
+
 }
 .menu {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
 .menuItem {
-  width: 200px;
   text-align: center;
   color: #0d0d0d;
   font-size: 20px;
-  text-decoration: none;
 }
 
 .menuItem a {
   color: #cccccc;
   font-weight: normal;
   font-size: 20px;
-  text-decoration: none;
 }
-
-a:link {text-decoration: none; }
-a:visited {text-decoration: none;}
-a:hover {text-decoration: none;}
-a:active {text-decoration: none;}
