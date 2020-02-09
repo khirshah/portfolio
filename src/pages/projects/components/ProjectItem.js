@@ -38,7 +38,7 @@ export default class ProjectItem extends Component {
                 <GitHub gitlink={this.props.git}/>
               </div>
             }
-            <div className={styles.download}>
+            <div className={styles.redirect}>
               <RedirectIcon link={this.props.link}/>
             </div>
           </div>

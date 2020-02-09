@@ -27,7 +27,7 @@ export default class About extends Component {
           </div>
           <div className={styles.section}>
             <h3 className={`${styles.title}  text-center text-lg-left`}>CV</h3>
-            <div className={`styles.cvContainer d-flex flex-row justify-content-sm-center justify-content-lg-start`}>
+            <div className={`styles.cvContainer d-flex flex-row justify-content-center justify-content-lg-start`}>
               <Pdf title="CURRICULUM VITAE"
                    link="/assets/docs/CV_Agnes_Meri.pdf"
                    image="/assets/images/cvxhdpi.png"/>

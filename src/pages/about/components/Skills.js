@@ -18,7 +18,7 @@ export default class Skills extends Component {
     let skillGroups = [];
     Object.keys(data).map(i => {
       skillGroups.push(
-        <div key={i} className={`${styles.skillGroup} col-sm`}>
+        <div key={i} className={`${styles.skillGroup} col`}>
           <div className={styles.skillGroupTitle}>{data[i].title}</div>
           <div className={styles.skillItems}>{this.createSkillItems(data[i].items)}</div>
         </div>
