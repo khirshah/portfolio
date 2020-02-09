@@ -1,7 +1,7 @@
 .contactIcon {
   width: 30px;
   height:30px;
-  margin: 10px 15px 10px 15px; 
+  margin: 10px; 
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: contain;
@@ -19,6 +19,7 @@
 
 .gmail{
   background-image: url("/assets/icons/contact/gmailxhdpi.png");
+  background-position: center; 
 }
 
 .codingame{  

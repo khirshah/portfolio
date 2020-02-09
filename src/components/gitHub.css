@@ -1,7 +1,14 @@
 .git{
-  width:30px;
-  height:30px;
+  width:20px;
+  height:20px;
   background-image: url('/assets/icons/tools/git1xxxhdpi.png');
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .git {
+    width:30px;
+    height:30px;
+  }
 }

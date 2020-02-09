@@ -1,20 +1,19 @@
 .projectItem {
-  width: 400px;
+  max-width: 400px;
   margin-top: 30px;
-  margin-left: 20px;
-  margin-right:20px;
   font-size: 18px;
 }
 
 .projectPicture {
-  width:400px;
-  height:240px;
+  width:300px;
+  height:180px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .projectTitle {
+  width:300px;
   height: 40px;
   padding-left: 25px;
   padding-top: 8px;
@@ -23,6 +22,7 @@
 }
 
 .projectDescription {
+  width: 300px;
   height:190px;
   padding: 25px;
   background-color: #1f1f1f;
@@ -31,12 +31,12 @@
 }
 
 .projectDescription p {
-  font-size: 18px;
-  line-height: 1.2;
+  font-size: 15px;
+  line-height: 1.1;
 }
 
 .iconBar {
-  width: 400px;
+  max-width:400px;
   display: flex;
   flex-direction: row;
   background-color: #1f1f1f;
@@ -50,12 +50,43 @@
 }
 
 .toolIcon {
-  width:30px;
-  height:30px;
+  width:20px;
+  height:20px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: 5px 10px 5px 10px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .projectItem {
+    margin-left: 20px;
+    margin-right:20px;
+  }
+
+  .projectPicture {
+    width:400px;
+    height:240px;
+  }
+
+  .projectTitle {
+    width: 400px;
+  }
+
+  .projectDescription {
+    width: 400px;
+  }
+
+  .projectDescription p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .toolIcon {
+    width:30px;
+    height:30px;
+    margin: 5px 10px 5px 10px;
+  }
 }
 
 .links {
@@ -68,6 +99,6 @@
   margin: 5px 10px 5px 10px;
 }
 
-.download {
+.redirect {
   margin: 5px 10px 5px 10px;
 }

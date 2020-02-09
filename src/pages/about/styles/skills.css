@@ -1,13 +1,14 @@
 .skillsContainer {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   margin: 20px;
 }
 
 .skillGroup {
-  display:flex;
+  display: flex;
+  flex-basis: auto;
   flex-direction: row;
   background-color: #1f1f1f;
   color: #59922E;
@@ -18,23 +19,38 @@
 .skillGroupTitle {
   width: 160px;
   position: relative;
-  left:5px;
-  padding-top: 20px;
-  font-size: 20px;
+  left: 5px;
+  padding-top: 10px;
+  font-size: 16px;
 }
 
 .skillItems {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.skill {
-  width:55px;
-  height:55px;
-  margin: 5px 10px 5px 30px;
+.skillIcon {
+  width: 35px;
+  height: 35px;
+  margin: 5px 10px 5px 10px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+@media screen and (min-width: 576px) {
+  .skill {
+    width: 55px;
+    height: 55px;
+    margin: 5px 10px 5px 30px;
+  } 
+
+  .skillGroupTitle {
+    width: 160px;
+    left: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
 }

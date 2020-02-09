@@ -1,11 +1,10 @@
-
 .pdfContainer {
-  margin: 20px;
+    margin-bottom: 20px;
 }
 
 .pdfImg{
-  width:400px;
-  height:239px;
+  width:300px;
+  height:179px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -14,10 +13,10 @@
 .pdfTitle {
   display:flex;
   flex-direction: column;
-  width: 400px;
+  width: 300px;
   height: 189px;
   padding: 25px;
-  font-size:18px;
+  font-size:15px;
   background-color: #1f1f1f;
   color: #59922E;
 }
@@ -25,4 +24,21 @@
 .text {
   display:flex;
   flex-grow: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .pdfImg{
+    width:400px;
+    height:239px;
+  }
+
+  .pdfTitle {
+    width: 400px;
+    height: 189px;
+    font-size:18px;
+  }
+
+  .pdfContainer {
+    margin: 20px;
+  }
 }

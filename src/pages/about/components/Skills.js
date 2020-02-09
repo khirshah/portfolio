@@ -6,9 +6,9 @@ export default class Skills extends Component {
 
   createSkillItems(skillList) {
     const skills = [];
-    skillList.map(s => {
+    skillList.map(skill => {
       skills.push(
-        <div key={s.name} style={{backgroundImage: `url(/assets/icons/tools/${s.name}xxxhdpi.png)`}} className={styles.skill} title={s.title}/>
+        <div key={skill.name} style={{backgroundImage: `url(/assets/icons/tools/${skill.name}xxxhdpi.png)`}} className={styles.skillIcon} title={skill.title}/>
         )
     })
     return skills;
@@ -18,7 +18,7 @@ export default class Skills extends Component {
     let skillGroups = [];
     Object.keys(data).map(i => {
       skillGroups.push(
-        <div key={i} className={`${styles.skillGroup} col-sm`}>
+        <div key={i} className={`${styles.skillGroup} col`}>
           <div className={styles.skillGroupTitle}>{data[i].title}</div>
           <div className={styles.skillItems}>{this.createSkillItems(data[i].items)}</div>
         </div>

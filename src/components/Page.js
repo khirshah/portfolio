@@ -8,7 +8,7 @@ export default class Page extends Component {
     return (
       <div className={`${styles.page} ${this.props.styles} container-fluid`}>  
         <div className={`${styles.pageHeader} d-flex col-12 p-0`}>
-          <p>MÉRI ÁGNES<br/>WEB DEVELOPMENT</p>
+          <p>ÁGNES MÉRI<br/>WEB DEVELOPMENT</p>
           <Menu/>
         </div> 
         <div className={styles.contentsContainer}>
