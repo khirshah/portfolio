@@ -20,8 +20,8 @@
   width: 160px;
   position: relative;
   left: 5px;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 10px;
+  font-size: 16px;
 }
 
 .skillItems {
@@ -31,11 +31,26 @@
   flex-wrap: wrap;
 }
 
-.skill {
-  width: 55px;
-  height: 55px;
-  margin: 5px 10px 5px 30px;
+.skillIcon {
+  width: 35px;
+  height: 35px;
+  margin: 5px 10px 5px 10px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+@media screen and (min-width: 576px) {
+  .skill {
+    width: 55px;
+    height: 55px;
+    margin: 5px 10px 5px 30px;
+  } 
+
+  .skillGroupTitle {
+    width: 160px;
+    left: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
 }

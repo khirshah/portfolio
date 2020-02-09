@@ -20,7 +20,7 @@
 .pageHeader {
   position: fixed;
   top:0;
-  height: 290px;
+  height: 190px;
   background: inherit;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 290px;
+  padding-top: 190px;
   /* 40px 50px 40px;*/
 }
 
@@ -50,10 +50,7 @@ a:active {text-decoration: none; color: #59922E;}
 
 
 @media screen and (min-width: 768px) {
-  .pageHeader {
-    height: 190px;
-  }
-.contentsContainer {
-  padding: 190px 40px 50px 40px;
-  }
+  .contentsContainer {
+    padding: 190px 40px 50px 40px;
+    }
 }

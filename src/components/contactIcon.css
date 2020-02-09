@@ -19,6 +19,7 @@
 
 .gmail{
   background-image: url("/assets/icons/contact/gmailxhdpi.png");
+  background-position: center; 
 }
 
 .codingame{  
