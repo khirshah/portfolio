@@ -30,7 +30,7 @@ export default class Projects extends Component {
     return (
       <Page styles={styles.projects}>
         <div className={styles.projectsContainer}>
-          <div className={styles.projectsTitle}>PROJECTS</div>
+          <div className={`${styles.projectsTitle} text-sm-center text-lg-left`}>PROJECTS</div>
           <div className={styles.projectItemsContainer}>
             {this.createProjects()}
           </div>

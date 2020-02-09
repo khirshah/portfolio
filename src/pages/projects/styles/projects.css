@@ -3,12 +3,12 @@
 }
 
 .projectsContainer {
-  display:table;
+  display:flex;
+  flex-direction: column;
 }
 
 .projectsTitle {
   padding-left:20px;
-  display:table;
   color: #59922E;
   font-size: 30px;
   font-weight: 100;
