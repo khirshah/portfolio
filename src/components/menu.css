@@ -1,6 +1,6 @@
 .menuContainer {
   position: absolute;
-  bottom: 20px;
+  top: 110px;
   background-color: #59922E;
 
 }
@@ -9,9 +9,9 @@
 }
 
 .menuItem {
-  text-align: center;
   color: #0d0d0d;
   font-size: 20px;
+  margin:0px 10px 0px 10px;
 }
 
 .menuItem a {
