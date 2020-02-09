@@ -14,7 +14,7 @@ export default class About extends Component {
             <h3 className={`${styles.title} text-sm-center text-lg-left`}>SKILLS</h3>
             <Skills/>
           </div>
-          <div className={`${styles.section} w-100`}>
+          <div className={styles.section}>
             <h3 className={`${styles.title}  text-sm-center text-lg-left`}>PUBLICATIONS</h3>
             <div className={styles.publContainer}>
               <Pdf title="MODELLING THE SPATIAL AND TEMPORAL DISPERSAL OF Cuscuta europea (Cuscutaceae)" 
@@ -27,7 +27,7 @@ export default class About extends Component {
           </div>
           <div className={styles.section}>
             <h3 className={`${styles.title}  text-sm-center text-lg-left`}>CV</h3>
-            <div className={styles.pdfContainer}>
+            <div className={`styles.cvContainer d-flex flex-row justify-content-sm-center justify-content-lg-start`}>
               <Pdf title="CURRICULUM VITAE"
                    link="/assets/docs/CV_Agnes_Meri.pdf"
                    image="/assets/images/cvxhdpi.png"/>

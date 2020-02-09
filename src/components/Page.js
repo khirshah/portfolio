@@ -14,7 +14,8 @@ export default class Page extends Component {
         <div className={styles.contentsContainer}>
           {this.props.children}
         </div>
-        <ContactBar/>
+          <a name="contactBar"></a>
+          <ContactBar/>
       </div>
     )
   }    

@@ -8,7 +8,7 @@ export default class Skills extends Component {
     const skills = [];
     skillList.map(s => {
       skills.push(
-        <div key={s} style={{backgroundImage: `url(/assets/icons/tools/${s.name}xxxhdpi.png)`}} className={styles.skill} title={s.title}/>
+        <div key={s.name} style={{backgroundImage: `url(/assets/icons/tools/${s.name}xxxhdpi.png)`}} className={styles.skill} title={s.title}/>
         )
     })
     return skills;

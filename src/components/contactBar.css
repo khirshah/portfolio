@@ -1,27 +1,11 @@
-@media screen and (min-width: 768px) {
-  
-  .contactBarContainer {
-    left: 0px;
-    height: 100vh;  
-    width: 50px;
-  }
-
-  .contactBar {
-    height: 260px;
-    padding: 0px;    
-    margin: auto 0;
-    background-color: rgba(0,0,0,0.3);
-  }
-}
-
 .contactBarContainer {
-  position: fixed;
+  display: flex;
   bottom: 0px;
-  padding: 0;
+  padding: 0px;
+  background-color: rgba(0,0,0,1);
 }
 
 .contactBar {
   z-index: 999;
   justify-content: center;
-  background-color: rgba(0,0,0,1);
 }

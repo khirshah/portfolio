@@ -10,6 +10,7 @@ export default class Menu extends Component {
           <a href="/" className='d-flex col-xs-4 col-md-2 mw-100 p-0' ><div className={`${styles.menuItem} col-12`}>HOME</div></a>
           <a href="/projects/" className='d-flex col-xs-4 col-md-2 mw-100 p-0'><div className={`${styles.menuItem} col-12`}>PROJECTS</div></a>         
           <a href="/about/" className='d-flex col-xs-4 col-md-2 mw-100 p-0'><div className={`${styles.menuItem} col-12`}>ABOUT</div></a>
+          <a href="#contactBar" className='d-flex col-xs-4 col-md-2 mw-100 p-0'><div className={`${styles.menuItem} col-12`}>CONTACT</div></a>
         </div>
       </div>
     );
