@@ -1,5 +1,53 @@
 [
   {
+    "title": "POPULATION MODELS",
+    "name": "population_models",
+    "ref": "https://population-models.herokuapp.com/",
+    "git":"https://github.com/khirshah/predator_prey",
+    "bg":"url(/assets/images/population_models.png)",
+    "tools":[      
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+      {
+        "name": "nodejs",
+        "title": "NodeJS"
+      },
+      {
+        "name": "d3js",
+        "title": "D3 JS"
+      }
+    ],
+    "text":"Interactive simulation of the Lotka-Voltera models written in ReactJS and D3 JS."
+  },
+  {
+    "title": "MOOD TRACKER",
+    "name": "mood_tracker",
+    "ref": "https://moodtracker-app.herokuapp.com/",
+    "git":"https://github.com/khirshah/mood_tracker",
+    "bg":"url(/assets/images/mood_tracker.png)",
+    "tools":[      
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "webpack",
+        "title": "Webpack"
+      },
+      {
+        "name": "nodejs",
+        "title": "NodeJS"
+      }
+    ],
+    "text":"Ongoing pet project. The idea is to build an app that records mood and habit data of a person. Data will be analysed statistically and various stats and graphs will be available to view."
+  },
+  {
     "title": "WEATHER APP",
     "name": "weatherApp",
     "ref": "https://agi-weather-app.herokuapp.com/",
@@ -129,7 +177,7 @@
         "title": "NodeJS"
       }
     ],
-    "text":"My first small project in ReactJS. It does basic arithmetic operations: +, -, *, /"
+    "text":"My first project in ReactJS. It performs basic arithmetic operations: +, -, *, /"
   }
 ]
 
