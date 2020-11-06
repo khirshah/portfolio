@@ -141,7 +141,7 @@
         "title": "JavaScript"
       }
     ],
-    "text":"Cellular automaton model of 2 competing species. Made with Vanilla JavaScript around 2013. The paramteres can be changed and the model behaviour changes accordingly. Default values ensure and almost equillibrium state of the model."
+    "text":"Cellular automaton model of 2 competing species. Made with Vanilla JavaScript around 2013. The paramteres can be changed and the model behaviour changes accordingly. Default values ensure an almost equillibrium state of the model."
   },
   {
     "title": "HOST-PARASITE MODEL",
