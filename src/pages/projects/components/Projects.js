@@ -5,7 +5,7 @@ import Page from "../../../components/Page";
 import ProjectItem from './ProjectItem';
 
 //------------------------ DATA ----------------------------------------
-import projectData from "/src/pages/projects/data/projectsData.js";
+import projectsData from "/src/pages/projects/data/projectsData.js";
 
 //------------------------ STYLES --------------------------------------
 import styles from "../styles/projects.css"
@@ -15,7 +15,7 @@ export default class Projects extends Component {
 
   constructor(props) {
     super(props);
-    this.data = projectData
+    this.data = projectsData
   }
   
   createProjects = () => {
