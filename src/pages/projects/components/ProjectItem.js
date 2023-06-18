@@ -12,7 +12,7 @@ export default class ProjectItem extends Component {
       toolIcons.push(
         <img
           key={tool.name}
-          style={{backgroundImage: `url(/src/assets/icons/tools/${tool.name}xxxhdpi.png)`}}
+          src={tool.icon}
           className={styles.toolIcon} title={tool.title}
         />
         )
