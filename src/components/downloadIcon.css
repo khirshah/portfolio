@@ -7,7 +7,7 @@
 .downloadIcon {
   width:20px;
   height:29px;
-  background-image: url('/assets/images/downloadxxxhdpi.png');
+  background-image: url('../assets/images/downloadxxxhdpi.png');
   background-repeat: no-repeat;
   background-size: contain;
 }

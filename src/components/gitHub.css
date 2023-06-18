@@ -1,7 +1,7 @@
 .git{
   width:20px;
   height:20px;
-  background-image: url('/assets/icons/tools/git1xxxhdpi.png');
+  background-image: url('../assets/icons/tools/git1xxxhdpi.png');
   background-repeat: no-repeat;
   background-size: contain;
 }

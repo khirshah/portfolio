@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from "../styles/projectItem.css";
-import data from "../data/projectsData.json";
+import data from "../data/projectsData.js";
 import GitHub from "../../../components/GitHub";
 import RedirectIcon from "../../../components/RedirectIcon";
 
@@ -10,7 +10,11 @@ export default class ProjectItem extends Component {
     const toolIcons = [];
     tools.map(tool => {
       toolIcons.push(
-        <div key={tool.name} style={{backgroundImage: `url(/assets/icons/tools/${tool.name}xxxhdpi.png)`}} className={styles.toolIcon} title={tool.title}></div>
+        <img
+          key={tool.name}
+          style={{backgroundImage: `url(/src/assets/icons/tools/${tool.name}xxxhdpi.png)`}}
+          className={styles.toolIcon} title={tool.title}
+        />
         )
     })
     return toolIcons  
@@ -20,7 +24,7 @@ export default class ProjectItem extends Component {
     return (
       <div className={styles.projectItem}>
         <a href={this.props.link}>
-          <div className={styles.projectPicture} style={{backgroundImage: this.props.image}} />
+          <img src={this.props.image} className={styles.projectPicture} />
         </a>
         <a href={this.props.link}>
           <div className={styles.projectTitle}>{this.props.title}</div>
