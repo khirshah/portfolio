@@ -5,7 +5,7 @@ import Page from "../../../components/Page";
 import ProjectItem from './ProjectItem';
 
 //------------------------ DATA ----------------------------------------
-import projectData from "../data/projectsData.js";
+import projectData from "/src/pages/projects/data/projectsData.js";
 
 //------------------------ STYLES --------------------------------------
 import styles from "../styles/projects.css"

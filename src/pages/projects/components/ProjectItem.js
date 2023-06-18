@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from "../styles/projectItem.css";
-import data from "../data/projectsData.js";
 import GitHub from "../../../components/GitHub";
 import RedirectIcon from "../../../components/RedirectIcon";
 
