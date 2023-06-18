@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import styles from "../styles/skills.css";
-import data from "../data/skills.json";
+import skillsData from "../data/skills.js";
 
 export default class Skills extends Component {
+  constructor(props) {
+    super(props);
+    this.data = skillsData
+  }
 
   createSkillItems(skillList) {
     const skills = [];
     skillList.map(skill => {
       skills.push(
-        <div key={skill.name} style={{backgroundImage: `url(/assets/icons/tools/${skill.name}xxxhdpi.png)`}} className={styles.skillIcon} title={skill.title}/>
+        <img key={skill.name} src={skill.icon} className={styles.skillIcon} title={skill.title}/>
         )
     })
     return skills;
@@ -16,11 +20,11 @@ export default class Skills extends Component {
 
   createSkillGroups() {
     let skillGroups = [];
-    Object.keys(data).map(i => {
+    Object.keys(this.data).map(i => {
       skillGroups.push(
         <div key={i} className={`${styles.skillGroup} col`}>
-          <div className={styles.skillGroupTitle}>{data[i].title}</div>
-          <div className={styles.skillItems}>{this.createSkillItems(data[i].items)}</div>
+          <div className={styles.skillGroupTitle}>{this.data[i].title}</div>
+          <div className={styles.skillItems}>{this.createSkillItems(this.data[i].items)}</div>
         </div>
       );
     });
