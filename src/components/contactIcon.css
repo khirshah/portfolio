@@ -9,23 +9,18 @@
 
 .github{
   background-color: black;
-  background-image: url("/assets/icons/contact/git2xhdpi.png");
 }
 
 .linkedin{
-  background-image: url("/assets/icons/contact/linkedinxhdpi.png");
-
 }
 
 .gmail{
-  background-image: url("/assets/icons/contact/gmailxhdpi.png");
-  background-position: center; 
+  background-position: center;
+  width: 40px;
 }
 
-.codingame{  
-  background-image: url("/assets/icons/contact/codingamexhdpi.png");
+.codingame{
 }
 
 .hackerrank{
-  background-image: url("/assets/icons/contact/hackerxhdpi.png");
 }

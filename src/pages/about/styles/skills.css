@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 576px) {
-  .skill {
+  .skillIcon {
     width: 55px;
     height: 55px;
     margin: 5px 10px 5px 30px;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Novecento';
-  src: url('/assets/fonts/Font_Novecento/Novecento_WideNormal.woff') format('woff');
+  src: url('../assets/fonts/Font_Novecento/Novecento_WideNormal.woff') format('woff');
 }
 
 .page {
@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Novecento';
-  background-image: url("/assets/images/bg2.png");
+  background-image: url("../assets/images/bg2.png");
   background-color: #0d0d0d;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 190px;
-  /* 40px 50px 40px;*/
+  min-height:100vh;
 }
 
 a {text-decoration: none; color: #59922E;}

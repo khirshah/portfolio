@@ -15,10 +15,10 @@ export default class HomePage extends Component {
             <p>Welcome to my website!</p>
             <p>Feel free to have a look at my <a href="/projects/">projects</a>,</p>
             <p>or check out my <a href="/about/">skills and achievments.</a></p>
-            <p>You can also follow the development on</p>
+            <p>You are welcome to browse my projects on</p>
             <p>my github page:</p>
           </div>
-          <GitHub gitlink="https://github.com/khirshah/portfolio/tree/develop"/>
+          <GitHub gitlink="https://github.com/khirshah/"/>
       </Page>
       )
   }    
