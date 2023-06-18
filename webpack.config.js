@@ -14,7 +14,7 @@ const entry = jsFiles.reduce( (obj, filePath) => {
 
 const htmlFiles = getFilesFromDir(PAGE_DIR, [".html"]);
 const htmlPlugins = htmlFiles.map( filePath => {
-    const fileName = filePath.replace(PAGE_DIR, "");
+    const fileName = filePath.replace(PAGE_DIR, "/public");
     return new HtmlWebpackPlugin({
         chunks:[fileName.replace(path.extname(fileName), ""), "vendor"],
         template: filePath,
