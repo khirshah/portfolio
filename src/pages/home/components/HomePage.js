@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Page from "../../../components/Page";
-import Menu from "../../../components/Menu";
-import ContactBar from "../../../components/ContactBar";
 import GitHub from "../../../components/GitHub";
 import styles from "../styles/homepage.css";
+import Projects from "../../projects/components/Projects";
+import About from "../../about/components/About";
 
 
 export default class HomePage extends Component {
@@ -20,6 +20,8 @@ export default class HomePage extends Component {
             <p>my github page:</p>
           </div>
           <GitHub gitlink="https://github.com/khirshah/"/>
+        <Projects />
+        <About />
       </Page>
       )
   }    
