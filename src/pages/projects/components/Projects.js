@@ -259,14 +259,17 @@ export default class Projects extends Component {
 
   render () {
     return (
-      <Page styles={styles.projects}>
-        <div className={styles.projectsContainer}>
-          <div className={`${styles.projectsTitle} text-center text-lg-left`}>PROJECTS</div>
-          <div className={styles.projectItemsContainer}>
-            {this.createProjects()}
+      <>
+        <a name="projects" className={styles.anchor}></a>
+        <div className={styles.projects}>
+          <div className={styles.projectsContainer}>
+            <div className={`${styles.projectsTitle} text-center text-lg-left`}>PROJECTS</div>
+            <div className={styles.projectItemsContainer}>
+              {this.createProjects()}
+            </div>
           </div>
         </div>
-      </Page>
+      </>
       )
   }    
 }
