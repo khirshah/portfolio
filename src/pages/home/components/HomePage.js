@@ -9,6 +9,7 @@ import styles from "../styles/homepage.css";
 export default class HomePage extends Component {
   render () {
     const gitLogo = {backgroundImage: "url(/assets/icons/contact/GitHub/GitHub-Mark-Light-120px-plus.png)"};
+    console.log('homepage')
     return (
       <Page styles={styles.homepage}> 
           <div className={styles.textContainer}>
