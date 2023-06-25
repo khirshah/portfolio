@@ -253,7 +253,6 @@ export default class Projects extends Component {
         </ProjectItem>
       )
     })
-    console.log(projects)
     return projects
   }
 
