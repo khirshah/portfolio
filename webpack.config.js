@@ -37,12 +37,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          {
-            loader: 'file-loader'
-          }
-        ]
+        test: /\.(jpg|png|svg|gif)$/,
+        type: 'asset/resource',
       },
       {
         test: /\.(js|jsx)$/,
@@ -50,7 +46,7 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
-      }
+      },
     ]
   },
   performance: { hints: false }
