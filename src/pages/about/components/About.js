@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Skills from "./Skills";
 import Pdf from "./Pdf";
+import Video from "./Video"
 import styles from "../styles/about.css";
 import paperIcon from "/src/assets/images/paperxhdpi.png"
 import cvIcon from "/src/assets/images/cvxhdpi.png"
@@ -37,11 +38,11 @@ export default class About extends Component {
             <div className={styles.section}>
               <h3 className={`${styles.title}  text-center text-lg-left`}>OTHER</h3>
               <div className={styles.publContainer}>
+                <Video
+                  title="PRESENTATION VIDEO - INTEGRATION TESTS"
+                />
                 <Pdf title="BLOG POST - REFINING WORK"
                      link="https://drive.google.com/file/d/1yD3wmSj8SFyzB6D_iiWt478iAx4q1ouX/view"
-                     image={cvIcon}/>
-                <Pdf title="PRESENTATION VIDEO - INTEGRATION TESTS"
-                     link="https://drive.google.com/file/d/16Z9P4pMmdfYoVpyEC8u0krwR5UL8plXY/view"
                      image={cvIcon}/>
               </div>
             </div>
