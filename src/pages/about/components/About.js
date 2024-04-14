@@ -35,8 +35,8 @@ export default class About extends Component {
                      image={cvIcon}/>
               </div>
             </div>
+            <a name="other" className={styles.anchor}></a>
             <div className={styles.section}>
-              <a name="other"></a>
               <h3 className={`${styles.title}  text-center text-lg-left`}>OTHER</h3>
               <div className={styles.publContainer}>
                 <Video
