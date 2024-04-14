@@ -73,36 +73,6 @@ const projectsData = () => [
       "text":"Ongoing pet project. The idea is to build an app that records mood and habit data of a person. Data will be analysed statistically and various stats and graphs will be available to view."
     },
     {
-      "title": "WEATHER APP",
-      "name": "weatherApp",
-      "ref": "https://agi-weather-app.vercel.app/",
-      "git":"https://github.com/khirshah/react_weather-app",
-      "bg": weatherAppImage,
-      "tools":[
-        {
-          "name": "react",
-          "title": "ReactJS",
-          "icon": reactIcon
-        },
-        {
-          "name": "webpack",
-          "title": "Webpack",
-          "icon": webpackIcon
-        },
-        {
-          "name": "nodejs",
-          "title": "NodeJS",
-          "icon": nodeIcon
-        },
-        {
-          "name": "expressjs",
-          "title": "ExpressJS",
-          "icon": expressIcon
-        }
-      ],
-      "text":"Application querying weather data from https://openweathermap.org/. It is backed with a separate expressjs server that sends the queries to the openweathermap.org public API and transfers the data to the client app. The client side application is built with ReactJS. the http requests are carried out with the axios npm package."
-    },
-    {
       "title": "COMPETITION MODEL",
       "name": "ca1",
       "ref": "http://khirshah.fractalometry.com/competition-model/",
