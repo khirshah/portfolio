@@ -36,7 +36,7 @@ export default class About extends Component {
             </div>
             <div className={styles.section}>
               <h3 className={`${styles.title}  text-center text-lg-left`}>OTHER</h3>
-              <div className={`styles.cvContainer d-flex flex-row justify-content-center justify-content-lg-start`}>
+              <div className={styles.publContainer}>
                 <Pdf title="BLOG POST - REFINING WORK"
                      link="https://drive.google.com/file/d/1yD3wmSj8SFyzB6D_iiWt478iAx4q1ouX/view"
                      image={cvIcon}/>
