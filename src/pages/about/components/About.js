@@ -36,6 +36,7 @@ export default class About extends Component {
               </div>
             </div>
             <div className={styles.section}>
+              <a name="other"></a>
               <h3 className={`${styles.title}  text-center text-lg-left`}>OTHER</h3>
               <div className={styles.publContainer}>
                 <Video
