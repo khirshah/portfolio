@@ -30,3 +30,13 @@
 p {
   line-height: 1.6;
 }
+
+.video {
+  width: 400px;
+  height: 240px;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+}
