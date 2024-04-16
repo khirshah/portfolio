@@ -30,6 +30,7 @@ const Projects = () => {
       <div className={styles.projects}>
         <div className={styles.projectsContainer}>
           <div className={`${styles.projectsTitle} text-center text-lg-left`}>PROJECTS</div>
+          <p className={styles.projectsDescription}>Please note that these projects are now about 4 years old and I'm keeping them up to date, but the coding style is outdated.</p>
           <div className={styles.projectItemsContainer}>
             {createProjects()}
           </div>
