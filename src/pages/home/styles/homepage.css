@@ -12,4 +12,8 @@
 
 .textContainer p {
   font-size: 1.8em;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.2em;
+  }
 }
