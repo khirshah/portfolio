@@ -15,108 +15,107 @@ import herokuIcon from '/src/assets/icons/tools/herokuxxxhdpi.png'
 import bashIcon from '/src/assets/icons/tools/bashxxxhdpi.png'
 import sqlIcon from '/src/assets/icons/tools/sqlxxxhdpi.png'
 
-
 const skillsData = {
-  "html": {
-    "title":"HTML",
-    "items":[
+  html: {
+    title: 'HTML',
+    items: [
       {
-        "name": "html5",
-        "title": "HTML5",
-        "icon": html5Icon
+        name: 'html5',
+        title: 'HTML5',
+        icon: html5Icon,
       },
       {
-        "name": "jsx",
-        "title": "JSX",
-        "icon": jsxIcon
-      }
-    ]
+        name: 'jsx',
+        title: 'JSX',
+        icon: jsxIcon,
+      },
+    ],
   },
-  "css":{
-    "title":"CSS",
-    "items":[
+  css: {
+    title: 'CSS',
+    items: [
       {
-        "name": "css",
-        "title": "CSS",
-        "icon": cssIcon
+        name: 'css',
+        title: 'CSS',
+        icon: cssIcon,
       },
       {
-        "name": "bootstrap",
-        "title": "Bootstrap",
-        "icon": bootStrapIcon
-      }
-    ]
+        name: 'bootstrap',
+        title: 'Bootstrap',
+        icon: bootStrapIcon,
+      },
+    ],
   },
-  "javascript":{ 
-    "title":"JAVASCRIPT",
-    "items":[
+  javascript: {
+    title: 'JAVASCRIPT',
+    items: [
       {
-        "name":"javascript",
-        "title": "JavaScript",
-        "icon": javaScriptIcon
+        name: 'javascript',
+        title: 'JavaScript',
+        icon: javaScriptIcon,
       },
       {
-        "name": "react",
-        "title": "ReactJS",
-        "icon": reactIcon
+        name: 'react',
+        title: 'ReactJS',
+        icon: reactIcon,
       },
       {
-        "name": "nodejs",
-        "title": "NodeJS",
-        "icon": nodeIcon
+        name: 'nodejs',
+        title: 'NodeJS',
+        icon: nodeIcon,
       },
       {
-        "name": "expressjs",
-        "title": "ExpressJS",
-        "icon": expressIcon
+        name: 'expressjs',
+        title: 'ExpressJS',
+        icon: expressIcon,
       },
       {
-        "name": "jquery",
-        "title": "JQuery",
-        "icon": jQueryIcon
-      }
-    ]
+        name: 'jquery',
+        title: 'JQuery',
+        icon: jQueryIcon,
+      },
+    ],
   },
-  "database": {
-    "title":"DATABASE",
-    "items":[
+  database: {
+    title: 'DATABASE',
+    items: [
       {
-        "name": "mongo1",
-        "title": "MongoDB",
-        "icon": mongoIcon
+        name: 'mongo1',
+        title: 'MongoDB',
+        icon: mongoIcon,
       },
       {
-        "name": "sql",
-        "title": "SQL",
-        "icon": sqlIcon
-      }
-    ]
+        name: 'sql',
+        title: 'SQL',
+        icon: sqlIcon,
+      },
+    ],
   },
-  "other":{
-    "title":"OTHER",
-    "items":[
+  other: {
+    title: 'OTHER',
+    items: [
       {
-        "name": "webpack",
-        "title": "Webpack",
-        "icon": webpackIcon
+        name: 'webpack',
+        title: 'Webpack',
+        icon: webpackIcon,
       },
       {
-        "name": "git3",
-        "title": "Git",
-        "icon": gitHubIcon
+        name: 'git3',
+        title: 'Git',
+        icon: gitHubIcon,
       },
       {
-        "name": "heroku",
-        "title": "Heroku",
-        "icon": herokuIcon
+        name: 'heroku',
+        title: 'Heroku',
+        icon: herokuIcon,
       },
       {
-        "name": "bash",
-        "title": "Bash",
-        "icon": bashIcon
-      }
-    ]
-  } 
+        name: 'bash',
+        title: 'Bash',
+        icon: bashIcon,
+      },
+    ],
+  },
 }
 
 export default skillsData

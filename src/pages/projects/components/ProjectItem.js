@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
-import styles from "../styles/projectItem.css";
-import GitHub from "../../../components/GitHub";
-import RedirectIcon from "../../../components/RedirectIcon";
+import React, { Component } from 'react'
+import styles from '../styles/projectItem.css'
+import GitHub from '../../../components/GitHub'
+import RedirectIcon from '../../../components/RedirectIcon'
 
 export default class ProjectItem extends Component {
-  
   createToolIcons(tools) {
-    const toolIcons = [];
-    tools.map(tool => {
+    const toolIcons = []
+    tools.map((tool) => {
       toolIcons.push(
         <img
           key={tool.name}
           src={tool.icon}
-          className={styles.toolIcon} title={tool.title}
+          className={styles.toolIcon}
+          title={tool.title}
         />
-        )
+      )
     })
-    return toolIcons  
+    return toolIcons
   }
 
-  render () {
+  render() {
     return (
       <div className={styles.projectItem}>
         <a href={this.props.link}>
@@ -36,17 +36,17 @@ export default class ProjectItem extends Component {
             {this.createToolIcons(this.props.tools)}
           </div>
           <div className={styles.links}>
-            {this.props.git != "" &&
+            {this.props.git != '' && (
               <div className={styles.git}>
-                <GitHub gitlink={this.props.git}/>
+                <GitHub gitlink={this.props.git} />
               </div>
-            }
+            )}
             <div className={styles.redirect}>
-              <RedirectIcon link={this.props.link}/>
+              <RedirectIcon link={this.props.link} />
             </div>
           </div>
         </div>
       </div>
-      )
-  }    
+    )
+  }
 }

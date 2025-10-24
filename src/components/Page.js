@@ -1,21 +1,23 @@
-import React, { Component } from 'react';
-import Menu from "./Menu";
-import ContactBar from "./ContactBar";
-import styles from "./page.css";
+import React, { Component } from 'react'
+import Menu from './Menu'
+import ContactBar from './ContactBar'
+import styles from './page.css'
 export default class Page extends Component {
-  render () {
+  render() {
     return (
       <div className={`${styles.page} ${this.props.styles} container-fluid`}>
         <div className={`${styles.pageHeader} d-flex col-12 p-0`}>
-          <p>ÁGNES MÉRI<br/>WEB DEVELOPER</p>
-          <Menu/>
-        </div> 
-        <div className={styles.contentsContainer}>
-          {this.props.children}
+          <p>
+            ÁGNES MÉRI
+            <br />
+            WEB DEVELOPER
+          </p>
+          <Menu />
         </div>
-          <a name="contactBar"></a>
-          <ContactBar/>
+        <div className={styles.contentsContainer}>{this.props.children}</div>
+        <a name='contactBar'></a>
+        <ContactBar />
       </div>
     )
-  }    
+  }
 }
