@@ -1,20 +1,13 @@
-import calculatorImage from '/src/assets/images/calculator.png'
 import popModelsImage from '/src/assets/images/population_models.png'
 import moodTrackerImage from '/src/assets/images/mood_tracker.png'
-import weatherAppImage from '/src/assets/images/weatherApp.png'
-import ebaySearchImage from '/src/assets/images/ebaySearch.png'
-import accountingAppImage from '/src/assets/images/accApp.png'
 import competitionModelImage from '/src/assets/images/ca2.png'
 import hostParasiteModelImage from '/src/assets/images/ca1.png'
 
-import reactIcon from '/src/assets/icons/tools/reactxxxhdpi.png'
+import reactIcon from '/src/assets/icons/tools/react-logo.png'
 import webpackIcon from '/src/assets/icons/tools/webpackxxxhdpi.png'
 import nodeIcon from '/src/assets/icons/tools/nodejsxxxhdpi.png'
 import d3Icon from '/src/assets/icons/tools/d3jsxxxhdpi.png'
-import expressIcon from '/src/assets/icons/tools/expressjsxxxhdpi.png'
-import mongoIcon from '/src/assets/icons/tools/mongo1xxxhdpi.png'
 import javaScriptIcon from '/src/assets/icons/tools/expressjsxxxhdpi.png'
-import jQueryIcon from '/src/assets/icons/tools/jqueryxxxhdpi.png'
 
 const projectsData = () => [
   {
@@ -101,31 +94,6 @@ const projectsData = () => [
       },
     ],
     text: 'Cellular automaton representation of a host-parasite model. I used this model and some alternatives for my PhD research. We built equivalent models in C++ without graphical representation to allow running them many times and statistically analyse the captured data. Related publication can be found on the About page of my website.',
-  },
-  {
-    title: 'CALCULATOR',
-    name: 'calculator',
-    ref: 'https://agi-portfolio-calculator.vercel.app/',
-    git: 'https://github.com/khirshah/react_calculator',
-    bg: calculatorImage,
-    tools: [
-      {
-        name: 'react',
-        title: 'ReactJS',
-        icon: reactIcon,
-      },
-      {
-        name: 'webpack',
-        title: 'Webpack',
-        icon: webpackIcon,
-      },
-      {
-        name: 'nodejs',
-        title: 'NodeJS',
-        icon: nodeIcon,
-      },
-    ],
-    text: 'My first project in ReactJS. It performs basic arithmetic operations: +, -, *, /',
   },
 ]
 
