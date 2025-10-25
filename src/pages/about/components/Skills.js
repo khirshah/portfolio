@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/skills.css'
+import styles from '../styles/skills.module.css'
 import skillsData from '../data/skills.js'
 
 const Skills = () => {

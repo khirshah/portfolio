@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem'
 import projectsData from '../data/projectsData.js'
 
 //------------------------ STYLES --------------------------------------
-import styles from '../styles/projects.css'
+import styles from '../styles/projects.module.css'
 
 //----------------------- COMPONENT ------------------------------------
 
@@ -19,9 +19,7 @@ const Projects = () => {
       <a name='projects' className={styles.anchor}></a>
       <div className={styles.projects}>
         <div className={styles.projectsContainer}>
-          <div className={`${styles.projectsTitle} text-center text-lg-left`}>
-            PROJECTS
-          </div>
+          <div className={styles.projectsTitle}>PROJECTS</div>
           <div className={styles.projectItemsContainer}>
             {data.map((i, index) => {
               return (
