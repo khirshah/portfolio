@@ -19,9 +19,7 @@ const Projects = () => {
       <a name='projects' className={styles.anchor}></a>
       <div className={styles.projects}>
         <div className={styles.projectsContainer}>
-          <div className={`${styles.projectsTitle} text-center text-lg-left`}>
-            PROJECTS
-          </div>
+          <div className={styles.projectsTitle}>PROJECTS</div>
           <div className={styles.projectItemsContainer}>
             {data.map((i, index) => {
               return (
