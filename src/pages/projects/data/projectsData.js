@@ -7,7 +7,7 @@ import reactIcon from '/src/assets/icons/tools/react-logo.png'
 import webpackIcon from '/src/assets/icons/tools/webpackxxxhdpi.png'
 import nodeIcon from '/src/assets/icons/tools/nodejsxxxhdpi.png'
 import d3Icon from '/src/assets/icons/tools/d3jsxxxhdpi.png'
-import javaScriptIcon from '/src/assets/icons/tools/expressjsxxxhdpi.png'
+import javaScriptIcon from '/src/assets/icons/tools/javascript-logo.png'
 
 const projectsData = () => [
   {

@@ -1,7 +1,7 @@
 .textContainer {
   max-width: 700px;
   margin-top:20px;
-  font-family: 'Arial';
+  font-family: 'Arial', serif;
   text-align: center; 
   color: #FFF9B3A3;
 }
