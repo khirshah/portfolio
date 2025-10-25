@@ -8,8 +8,30 @@ import webpackIcon from '/src/assets/icons/tools/webpackxxxhdpi.png'
 import nodeIcon from '/src/assets/icons/tools/nodejsxxxhdpi.png'
 import d3Icon from '/src/assets/icons/tools/d3jsxxxhdpi.png'
 import javaScriptIcon from '/src/assets/icons/tools/javascript-logo.png'
+import esriIcon from '/src/assets/icons/tools/esri-logo.png'
+import arcGISImage from '/src/assets/images/arcGIS.png'
 
 const projectsData = () => [
+  {
+    title: 'ARC GIS MAP VIEWER',
+    name: 'map_viewer',
+    ref: 'https://agi-arcgis-map-viewer.vercel.app/',
+    git: 'https://github.com/khirshah/arcgis-map-viewer',
+    bg: arcGISImage,
+    tools: [
+      {
+        name: 'react',
+        title: 'ReactJS',
+        icon: reactIcon,
+      },
+      {
+        name: 'esri',
+        title: 'Esri ArcGIS API for JavaScript',
+        icon: esriIcon,
+      },
+    ],
+    text: "Map integration using Esri's ArcGIS API for JavaScript. Features include basemap selection, layer toggling, and map navigation controls.",
+  },
   {
     title: 'POPULATION MODELS',
     name: 'population_models',
