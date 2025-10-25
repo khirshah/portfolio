@@ -10,6 +10,7 @@ import d3Icon from '/src/assets/icons/tools/d3jsxxxhdpi.png'
 import javaScriptIcon from '/src/assets/icons/tools/javascript-logo.png'
 import esriIcon from '/src/assets/icons/tools/esri-logo.png'
 import arcGISImage from '/src/assets/images/arcGIS.png'
+import typescriptIcon from '/src/assets/icons/tools/typescript-logo.png'
 
 const projectsData = () => [
   {
@@ -23,6 +24,11 @@ const projectsData = () => [
         name: 'react',
         title: 'ReactJS',
         icon: reactIcon,
+      },
+      {
+        name: 'typescript',
+        title: 'TypeScript',
+        icon: typescriptIcon,
       },
       {
         name: 'esri',
