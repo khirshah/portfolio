@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem'
 import projectsData from '../data/projectsData.js'
 
 //------------------------ STYLES --------------------------------------
-import styles from '../styles/projects.css'
+import styles from '../styles/projects.module.css'
 
 //----------------------- COMPONENT ------------------------------------
 

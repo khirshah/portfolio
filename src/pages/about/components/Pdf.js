@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from '../styles/pdf.css'
+import styles from '../styles/pdf.module.css'
 import DownloadIcon from '../../../components/DownloadIcon'
 
 export default class About extends Component {

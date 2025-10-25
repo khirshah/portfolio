@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Skills from './Skills'
 import Pdf from './Pdf'
 import Video from './Video'
-import styles from '../styles/about.css'
+import styles from '../styles/about.module.css'
 import paperIcon from '/src/assets/images/paperxhdpi.png'
 import cvIcon from '/src/assets/images/cvxhdpi.png'
 

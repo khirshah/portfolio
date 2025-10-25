@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from '../styles/projectItem.css'
+import styles from '../styles/projectItem.module.css'
 import GitHub from '../../../components/GitHub'
 import RedirectIcon from '../../../components/RedirectIcon'
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import styles from '../styles/pdf.css'
-import videoStyles from '../styles/about.css'
+import styles from '../styles/pdf.module.css'
+import videoStyles from '../styles/about.module.css'
 
 export default class Video extends Component {
   render() {
