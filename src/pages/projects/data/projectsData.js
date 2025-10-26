@@ -1,4 +1,4 @@
-import popModelsImage from '/src/assets/images/population_models.png'
+import popModelsImage from '/src/assets/images/predator_prey.png'
 import moodTrackerImage from '/src/assets/images/mood_tracker.png'
 import competitionModelImage from '/src/assets/images/ca2.png'
 import hostParasiteModelImage from '/src/assets/images/ca1.png'
@@ -40,7 +40,7 @@ const projectsData = () => [
   },
   {
     title: 'POPULATION MODELS',
-    name: 'population_models',
+    name: 'predator_prey',
     ref: 'https://predator-prey-model.vercel.app/',
     git: 'https://github.com/khirshah/predator_prey',
     bg: popModelsImage,
