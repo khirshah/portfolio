@@ -1,6 +1,5 @@
 import React from 'react'
 import Page from '../../../components/Page'
-import GitHub from '../../../components/GitHub'
 import styles from '../styles/homepage.module.css'
 import Projects from '../../projects/components/Projects'
 import About from '../../about/components/About'
