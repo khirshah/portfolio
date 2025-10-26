@@ -39,7 +39,7 @@ const projectsData = () => [
     text: "Map integration using Esri's ArcGIS API for JavaScript. Features include basemap selection, layer toggling, and map navigation controls.",
   },
   {
-    title: 'POPULATION MODELS',
+    title: 'POPULATION MODELING',
     name: 'predator_prey',
     ref: 'https://predator-prey-model.vercel.app/',
     git: 'https://github.com/khirshah/predator_prey',
@@ -66,7 +66,7 @@ const projectsData = () => [
         icon: d3Icon,
       },
     ],
-    text: 'Interactive simulation of the Lotka-Voltera models written in ReactJS and D3 JS.',
+    text: 'Interactive simulation of the Lotka-Voltera predator-prey model written in ReactJS and D3 JS.',
   },
   {
     title: 'MOOD TRACKER',
