@@ -1,5 +1,4 @@
-import popModelsImage from '/src/assets/images/population_models.png'
-import moodTrackerImage from '/src/assets/images/mood_tracker.png'
+import popModelsImage from '/src/assets/images/predator_prey.png'
 import competitionModelImage from '/src/assets/images/ca2.png'
 import hostParasiteModelImage from '/src/assets/images/ca1.png'
 
@@ -39,8 +38,8 @@ const projectsData = () => [
     text: "Map integration using Esri's ArcGIS API for JavaScript. Features include basemap selection, layer toggling, and map navigation controls.",
   },
   {
-    title: 'POPULATION MODELS',
-    name: 'population_models',
+    title: 'POPULATION MODELING',
+    name: 'predator_prey',
     ref: 'https://predator-prey-model.vercel.app/',
     git: 'https://github.com/khirshah/predator_prey',
     bg: popModelsImage,
@@ -66,32 +65,7 @@ const projectsData = () => [
         icon: d3Icon,
       },
     ],
-    text: 'Interactive simulation of the Lotka-Voltera models written in ReactJS and D3 JS.',
-  },
-  {
-    title: 'MOOD TRACKER',
-    name: 'mood_tracker',
-    ref: 'https://agi-moodtracker-app.vercel.app/',
-    git: 'https://github.com/khirshah/mood_tracker',
-    bg: moodTrackerImage,
-    tools: [
-      {
-        name: 'react',
-        title: 'ReactJS',
-        icon: reactIcon,
-      },
-      {
-        name: 'webpack',
-        title: 'Webpack',
-        icon: webpackIcon,
-      },
-      {
-        name: 'nodejs',
-        title: 'NodeJS',
-        icon: nodeIcon,
-      },
-    ],
-    text: 'Ongoing pet project. The idea is to build an app that records mood and habit data of a person. Data will be analysed statistically and various stats and graphs will be available to view.',
+    text: 'Interactive simulation of the Lotka-Voltera predator-prey model written in ReactJS and D3 JS.',
   },
   {
     title: 'COMPETITION MODEL',
