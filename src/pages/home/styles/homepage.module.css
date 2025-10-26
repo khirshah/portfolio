@@ -1,17 +1,20 @@
 .textContainer {
-  max-width: 700px;
+  max-width: 500px;
   margin-top:20px;
   font-family: 'Arial', serif;
-  text-align: center; 
   color: #FFF9B3A3;
+  background-color: #1f1f1f;
+  text-align: justify;
+  padding: 20px;
 }
 
-.textContainer h1 {
-  font-size: 3em;
+.textContainer h2 {
+  text-align: center;
+  padding-bottom: 12px;
 }
 
 .textContainer p {
-  font-size: 1.8em;
+  font-size: 1.2em;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.2em;
