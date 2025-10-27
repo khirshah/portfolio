@@ -54,3 +54,10 @@ a:active {text-decoration: none; color: #59922E;}
     padding: 190px 40px 50px 40px;
     }
 }
+
+@media screen and (max-width: 600px) {
+  .contentsContainer {
+    width: 90%;
+    margin: 0 auto;
+    }
+}

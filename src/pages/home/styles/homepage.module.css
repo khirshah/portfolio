@@ -8,13 +8,6 @@
   padding: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .textContainer {
-    width: 90%;
-    max-width: none;
-  }
-}
-
 .textContainer h2 {
   text-align: center;
   padding-bottom: 12px;
@@ -22,4 +15,8 @@
 
 .textContainer p {
   font-size: 1.2em;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.2em;
+  }
 }
