@@ -33,7 +33,7 @@ const projectsData = () => [
       },
       {
         name: 'tailwindcss',
-        title: 'Modern CSS with TailwindCSS',
+        title: 'Tailwind',
         icon: tailwindIcon,
       },
     ],
