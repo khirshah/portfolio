@@ -1,6 +1,8 @@
 import popModelsImage from '/src/assets/images/predator_prey.png'
 import competitionModelImage from '/src/assets/images/ca2.png'
 import hostParasiteModelImage from '/src/assets/images/ca1.png'
+import arcGISImage from '/src/assets/images/arcGIS.png'
+import ethereumViewerImage from '/src/assets/images/ethereum-viewer.png'
 
 import reactIcon from '/src/assets/icons/tools/react-logo.png'
 import webpackIcon from '/src/assets/icons/tools/webpackxxxhdpi.png'
@@ -8,10 +10,35 @@ import nodeIcon from '/src/assets/icons/tools/nodejsxxxhdpi.png'
 import d3Icon from '/src/assets/icons/tools/d3jsxxxhdpi.png'
 import javaScriptIcon from '/src/assets/icons/tools/javascript-logo.png'
 import esriIcon from '/src/assets/icons/tools/esri-logo.png'
-import arcGISImage from '/src/assets/images/arcGIS.png'
 import typescriptIcon from '/src/assets/icons/tools/typescript-logo.png'
+import tailwindIcon from '/src/assets/icons/tools/tailwindcss-icon.svg'
 
 const projectsData = () => [
+  {
+    title: 'ETHEREUM TRANSACTION VIEWER',
+    name: 'ethereum_viewer',
+    ref: 'https://agi-ethereum-transaction-visualiser.vercel.app/',
+    git: 'https://github.com/khirshah/ethereum-transaction-visualiser',
+    bg: ethereumViewerImage,
+    tools: [
+      {
+        name: 'react',
+        title: 'ReactJS',
+        icon: reactIcon,
+      },
+      {
+        name: 'typescript',
+        title: 'TypeScript',
+        icon: typescriptIcon,
+      },
+      {
+        name: 'tailwindcss',
+        title: 'Modern CSS with TailwindCSS',
+        icon: tailwindIcon,
+      },
+    ],
+    text: 'Experimenting with AI to see how it can assist with coding, and learning a little about blockchain technologies along the way. This app fetches and displays Ethereum transaction data for a certain address.',
+  },
   {
     title: 'ARC GIS MAP VIEWER',
     name: 'map_viewer',
